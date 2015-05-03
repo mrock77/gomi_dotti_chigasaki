@@ -36,10 +36,10 @@
             </objects>
             <point key="canvasLocation" x="-295" y="1278"/>
         </scene>
-        <!--可燃ごみ-->
+        <!--小型家電の回収対象-->
         <scene sceneID="agG-rM-pCL">
             <objects>
-                <viewController title="可燃ごみ" id="41v-KM-NLD" sceneMemberID="viewController">
+                <viewController title="小型家電の回収対象" id="41v-KM-NLD" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Oon-KI-3OT"/>
                         <viewControllerLayoutGuide type="bottom" id="e7f-Md-Hsh"/>
@@ -48,8 +48,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" misplaced="YES" image="kanen-list.png" translatesAutoresizingMaskIntoConstraints="NO" id="oif-IV-cyf">
-                                <rect key="frame" x="0.0" y="32" width="320" height="479"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="kaden-kaisyu1.png" translatesAutoresizingMaskIntoConstraints="NO" id="oif-IV-cyf">
+                                <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -60,17 +60,17 @@
                             <constraint firstItem="oif-IV-cyf" firstAttribute="top" secondItem="Oon-KI-3OT" secondAttribute="bottom" id="scY-uz-fXf"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="可燃ごみ" id="tfg-TF-KgC"/>
+                    <tabBarItem key="tabBarItem" title="小型家電の回収品目" id="tfg-TF-KgC"/>
                     <navigationItem key="navigationItem" id="Lqr-Ng-fOh"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uur-zs-0of" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-295" y="615"/>
         </scene>
-        <!--不燃物・本・商品プラ-->
+        <!--小型家電回収ボックス設置場所-->
         <scene sceneID="hRE-wn-l8N">
             <objects>
-                <viewController id="6NO-GF-GJO" sceneMemberID="viewController">
+                <viewController title="小型家電回収ボックス設置場所" id="6NO-GF-GJO" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qsh-5K-IBB"/>
                         <viewControllerLayoutGuide type="bottom" id="FQA-hX-GY2"/>
@@ -79,7 +79,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="funen-list.png" translatesAutoresizingMaskIntoConstraints="NO" id="nby-bC-DOP">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="kaden-kaisyu2.png" translatesAutoresizingMaskIntoConstraints="NO" id="nby-bC-DOP">
                                 <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                             </imageView>
                         </subviews>
@@ -91,26 +91,26 @@
                             <constraint firstItem="nby-bC-DOP" firstAttribute="leading" secondItem="sJm-xM-oSB" secondAttribute="leading" id="wXb-R6-SZv"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="不燃物・本・商品プラ" id="kDi-sf-lZK"/>
+                    <tabBarItem key="tabBarItem" title="小型家電回収ボックス設置場所" id="kDi-sf-lZK"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u17-bm-HNR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="56" y="615"/>
         </scene>
-        <!--資源(戸別収集対象品目)-->
+        <!--家電リサイクル指定取引所-->
         <scene sceneID="2QD-3M-lA8">
             <objects>
-                <viewController id="orH-rj-gEf" sceneMemberID="viewController">
+                <viewController title="家電リサイクル指定取引所" id="orH-rj-gEf" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="HK2-yG-oh7"/>
                         <viewControllerLayoutGuide type="bottom" id="qdg-NY-mSt"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="x7Q-pj-2dE">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="shigen-kobetsu-list.png" translatesAutoresizingMaskIntoConstraints="NO" id="zOW-aN-siG">
-                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="recyle-place.png" translatesAutoresizingMaskIntoConstraints="NO" id="zOW-aN-siG">
+                                <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -121,7 +121,7 @@
                             <constraint firstItem="zOW-aN-siG" firstAttribute="top" secondItem="HK2-yG-oh7" secondAttribute="bottom" id="vbF-Nh-OoK"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="資源(戸別収集対象品目)" id="Ahc-r4-U4a"/>
+                    <tabBarItem key="tabBarItem" title="家電リサイクル指定取引所" id="Ahc-r4-U4a"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pZO-Nz-lQY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -386,6 +386,7 @@
                         <segue destination="UFz-DU-91U" kind="relationship" relationship="viewControllers" id="gmB-Ws-XC3"/>
                         <segue destination="41v-KM-NLD" kind="relationship" relationship="viewControllers" id="i5b-Cx-vaX"/>
                         <segue destination="6NO-GF-GJO" kind="relationship" relationship="viewControllers" id="pTu-GA-gMh"/>
+                        <segue destination="orH-rj-gEf" kind="relationship" relationship="viewControllers" id="fwq-jL-hzO"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a6g-aL-yAJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -751,7 +752,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="8blk-2015-04.png" translatesAutoresizingMaskIntoConstraints="NO" id="mLs-Fy-YrX">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="1blk-2015-05.png" translatesAutoresizingMaskIntoConstraints="NO" id="mLs-Fy-YrX">
                                 <rect key="frame" x="6" y="70" width="308" height="444"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="435" id="ki4-ah-Xjt"/>
@@ -1747,9 +1748,8 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
         </scene>
     </scenes>
     <resources>
-        <image name="8blk-2015-04.png" width="1280" height="960"/>
+        <image name="1blk-2015-05.png" width="1110" height="900"/>
         <image name="eda&amp;smallkaden-list.png" width="490" height="750"/>
-        <image name="funen-list.png" width="493" height="750"/>
         <image name="icon_bincanpet.png" width="400" height="200"/>
         <image name="icon_haiyukinzoku.png" width="400" height="200"/>
         <image name="icon_iruinuno.png" width="400" height="200"/>
@@ -1757,12 +1757,13 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
         <image name="icon_moyasenai.png" width="400" height="200"/>
         <image name="icon_moyaseru.png" width="400" height="200"/>
         <image name="icon_plastic.png" width="400" height="200"/>
-        <image name="kanen-list.png" width="493" height="750"/>
+        <image name="kaden-kaisyu1.png" width="626" height="881"/>
+        <image name="kaden-kaisyu2.png" width="620" height="893"/>
         <image name="no-treat-list1.png" width="1080" height="1643"/>
         <image name="no-treat-list2.png" width="1074" height="1644"/>
         <image name="oogata-list.png" width="493" height="750"/>
         <image name="plastic-list.png" width="493" height="750"/>
-        <image name="shigen-kobetsu-list.png" width="492" height="750"/>
+        <image name="recyle-place.png" width="562" height="875"/>
         <image name="shigen-sonota-list.png" width="491" height="750"/>
         <image name="shisetsu-list.png" width="491" height="750"/>
         <image name="shohin-pla-list.png" width="491" height="750"/>
