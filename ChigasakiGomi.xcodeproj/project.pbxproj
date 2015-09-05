@@ -117,6 +117,8 @@
 		CAED55ED1B9AA76E008C3A80 /* 6blk-2015-09.png in Resources */ = {isa = PBXBuildFile; fileRef = CAED55EC1B9AA76E008C3A80 /* 6blk-2015-09.png */; };
 		CAED55EF1B9AA777008C3A80 /* 7blk-2015-09.png in Resources */ = {isa = PBXBuildFile; fileRef = CAED55EE1B9AA777008C3A80 /* 7blk-2015-09.png */; };
 		CAED55F11B9AA780008C3A80 /* 8blk-2015-09.png in Resources */ = {isa = PBXBuildFile; fileRef = CAED55F01B9AA780008C3A80 /* 8blk-2015-09.png */; };
+		CAED55F41B9AB0F3008C3A80 /* PdfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAED55F31B9AB0F3008C3A80 /* PdfViewController.m */; };
+		CAED55F71B9AB26F008C3A80 /* H27wakedashi.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CAED55F61B9AB26F008C3A80 /* H27wakedashi.pdf */; };
 		CAFCA89C1ADD6E6100FDE34F /* date_icon_bincanpet.png in Resources */ = {isa = PBXBuildFile; fileRef = CAFCA8951ADD6E6100FDE34F /* date_icon_bincanpet.png */; };
 		CAFCA89D1ADD6E6100FDE34F /* date_icon_haiyukinzoku.png in Resources */ = {isa = PBXBuildFile; fileRef = CAFCA8961ADD6E6100FDE34F /* date_icon_haiyukinzoku.png */; };
 		CAFCA89E1ADD6E6100FDE34F /* date_icon_iruinuno.png in Resources */ = {isa = PBXBuildFile; fileRef = CAFCA8971ADD6E6100FDE34F /* date_icon_iruinuno.png */; };
@@ -264,6 +266,9 @@
 		CAED55EC1B9AA76E008C3A80 /* 6blk-2015-09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6blk-2015-09.png"; sourceTree = "<group>"; };
 		CAED55EE1B9AA777008C3A80 /* 7blk-2015-09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7blk-2015-09.png"; sourceTree = "<group>"; };
 		CAED55F01B9AA780008C3A80 /* 8blk-2015-09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "8blk-2015-09.png"; sourceTree = "<group>"; };
+		CAED55F21B9AB0C9008C3A80 /* PdfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PdfViewController.h; sourceTree = "<group>"; };
+		CAED55F31B9AB0F3008C3A80 /* PdfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PdfViewController.m; sourceTree = "<group>"; };
+		CAED55F61B9AB26F008C3A80 /* H27wakedashi.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = H27wakedashi.pdf; path = pdf/H27wakedashi.pdf; sourceTree = "<group>"; };
 		CAFCA8951ADD6E6100FDE34F /* date_icon_bincanpet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = date_icon_bincanpet.png; sourceTree = "<group>"; };
 		CAFCA8961ADD6E6100FDE34F /* date_icon_haiyukinzoku.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = date_icon_haiyukinzoku.png; sourceTree = "<group>"; };
 		CAFCA8971ADD6E6100FDE34F /* date_icon_iruinuno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = date_icon_iruinuno.png; sourceTree = "<group>"; };
@@ -355,6 +360,8 @@
 				B0FC81871A38A11900382855 /* WebAddressSearchViewController.m */,
 				B094637A1A37555500BD776D /* WebTypeSearchViewController.h */,
 				B094637B1A37555500BD776D /* WebTypeSearchViewController.m */,
+				CAED55F21B9AB0C9008C3A80 /* PdfViewController.h */,
+				CAED55F31B9AB0F3008C3A80 /* PdfViewController.m */,
 				B0EE70FD1A33ECE400E21D98 /* WeekViewController.h */,
 				B0EE70FE1A33ECE400E21D98 /* WeekViewController.m */,
 				B0E1F31D1A5A1A4700F67676 /* GetLocationViewController.h */,
@@ -368,6 +375,7 @@
 		CA794F4319FB44EE00C96F85 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CAED55F51B9AB1F8008C3A80 /* pdf */,
 				B0A2699B1A348BA200589AD9 /* db_calendar */,
 				CA794F6219FB4C6900C96F85 /* image4app */,
 				CA794F4419FB44EE00C96F85 /* ChigasakiGomi-Info.plist */,
@@ -489,6 +497,14 @@
 			path = image4app;
 			sourceTree = "<group>";
 		};
+		CAED55F51B9AB1F8008C3A80 /* pdf */ = {
+			isa = PBXGroup;
+			children = (
+				CAED55F61B9AB26F008C3A80 /* H27wakedashi.pdf */,
+			);
+			name = pdf;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -600,6 +616,7 @@
 				CAED55921B9AA4A2008C3A80 /* 2blk-2015-10.png in Resources */,
 				CAFCA89D1ADD6E6100FDE34F /* date_icon_haiyukinzoku.png in Resources */,
 				CAED55E91B9AA75C008C3A80 /* 4blk-2015-09.png in Resources */,
+				CAED55F71B9AB26F008C3A80 /* H27wakedashi.pdf in Resources */,
 				CA794F4719FB44EE00C96F85 /* InfoPlist.strings in Resources */,
 				CAED558B1B9AA495008C3A80 /* 1blk-2016-03.png in Resources */,
 				CAED55BA1B9AA4C2008C3A80 /* 5blk-2016-02.png in Resources */,
@@ -655,6 +672,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0F769271A2AEB1900858A02 /* TodayViewController.m in Sources */,
+				CAED55F41B9AB0F3008C3A80 /* PdfViewController.m in Sources */,
 				B0FC81881A38A11900382855 /* WebAddressSearchViewController.m in Sources */,
 				B0E1F31F1A5A1A4700F67676 /* GetLocationViewController.m in Sources */,
 				CA794F4919FB44EE00C96F85 /* main.m in Sources */,
