@@ -119,6 +119,8 @@
 		CAED55F11B9AA780008C3A80 /* 8blk-2015-09.png in Resources */ = {isa = PBXBuildFile; fileRef = CAED55F01B9AA780008C3A80 /* 8blk-2015-09.png */; };
 		CAED55F41B9AB0F3008C3A80 /* PdfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAED55F31B9AB0F3008C3A80 /* PdfViewController.m */; };
 		CAED55F71B9AB26F008C3A80 /* H27wakedashi.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CAED55F61B9AB26F008C3A80 /* H27wakedashi.pdf */; };
+		CAFAD0331BB1040C00CB53F1 /* back2today.png in Resources */ = {isa = PBXBuildFile; fileRef = CAFAD0321BB1040C00CB53F1 /* back2today.png */; };
+		CAFAD0351BB1075600CB53F1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFAD0341BB1075600CB53F1 /* QuartzCore.framework */; };
 		CAFCA89C1ADD6E6100FDE34F /* date_icon_bincanpet.png in Resources */ = {isa = PBXBuildFile; fileRef = CAFCA8951ADD6E6100FDE34F /* date_icon_bincanpet.png */; };
 		CAFCA89D1ADD6E6100FDE34F /* date_icon_haiyukinzoku.png in Resources */ = {isa = PBXBuildFile; fileRef = CAFCA8961ADD6E6100FDE34F /* date_icon_haiyukinzoku.png */; };
 		CAFCA89E1ADD6E6100FDE34F /* date_icon_iruinuno.png in Resources */ = {isa = PBXBuildFile; fileRef = CAFCA8971ADD6E6100FDE34F /* date_icon_iruinuno.png */; };
@@ -269,6 +271,8 @@
 		CAED55F21B9AB0C9008C3A80 /* PdfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PdfViewController.h; sourceTree = "<group>"; };
 		CAED55F31B9AB0F3008C3A80 /* PdfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PdfViewController.m; sourceTree = "<group>"; };
 		CAED55F61B9AB26F008C3A80 /* H27wakedashi.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = H27wakedashi.pdf; path = pdf/H27wakedashi.pdf; sourceTree = "<group>"; };
+		CAFAD0321BB1040C00CB53F1 /* back2today.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back2today.png; sourceTree = "<group>"; };
+		CAFAD0341BB1075600CB53F1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CAFCA8951ADD6E6100FDE34F /* date_icon_bincanpet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = date_icon_bincanpet.png; sourceTree = "<group>"; };
 		CAFCA8961ADD6E6100FDE34F /* date_icon_haiyukinzoku.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = date_icon_haiyukinzoku.png; sourceTree = "<group>"; };
 		CAFCA8971ADD6E6100FDE34F /* date_icon_iruinuno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = date_icon_iruinuno.png; sourceTree = "<group>"; };
@@ -283,6 +287,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAFAD0351BB1075600CB53F1 /* QuartzCore.framework in Frameworks */,
 				B0EAD8A51ABE5C05009520E0 /* iAd.framework in Frameworks */,
 				B0E1F31C1A5A188300F67676 /* CoreLocation.framework in Frameworks */,
 				B0E1F31A1A5A187400F67676 /* MapKit.framework in Frameworks */,
@@ -324,6 +329,7 @@
 		CA794F3B19FB44EE00C96F85 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CAFAD0341BB1075600CB53F1 /* QuartzCore.framework */,
 				B0EAD8A41ABE5C05009520E0 /* iAd.framework */,
 				B0E1F31B1A5A188300F67676 /* CoreLocation.framework */,
 				B0E1F3191A5A187400F67676 /* MapKit.framework */,
@@ -392,6 +398,7 @@
 		CA794F6219FB4C6900C96F85 /* image4app */ = {
 			isa = PBXGroup;
 			children = (
+				CAFAD0321BB1040C00CB53F1 /* back2today.png */,
 				CA82D0121AF683F1008D9481 /* kaden-kaisyu1.png */,
 				CA82D0131AF683F1008D9481 /* kaden-kaisyu2.png */,
 				CA82D0141AF683F1008D9481 /* recyle-place.png */,
@@ -655,6 +662,7 @@
 				CAED55971B9AA4A2008C3A80 /* 2blk-2016-03.png in Resources */,
 				CAED55AF1B9AA4B7008C3A80 /* 4blk-2016-03.png in Resources */,
 				CAED55E71B9AA756008C3A80 /* 3blk-2015-09.png in Resources */,
+				CAFAD0331BB1040C00CB53F1 /* back2today.png in Resources */,
 				CAED55A21B9AA4AC008C3A80 /* 3blk-2016-02.png in Resources */,
 				B0016A3D1A733A4900455DF0 /* MainStoryboard_iPhone.storyboard in Resources */,
 				CAED559E1B9AA4AC008C3A80 /* 3blk-2015-10.png in Resources */,
