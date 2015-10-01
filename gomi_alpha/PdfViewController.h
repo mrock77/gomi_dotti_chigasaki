@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 vida-comoda. All rights reserved.
 //
 
-#ifndef ChigasakiGomi_PdfViewController_h
+//#ifndef ChigasakiGomi_PdfViewController_h
 #define ChigasakiGomi_PdfViewController_h
 
 #import <UIKit/UIKit.h>

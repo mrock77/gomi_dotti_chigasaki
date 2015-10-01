@@ -21,6 +21,8 @@
 @property (strong, nonatomic) IBOutletCollection(UIImageView) NSArray *imgWeekdays;
 - (IBAction)swipe_left:(id)sender;
 - (IBAction)swipe_right:(id)sender;
+- (IBAction)swipe_up:(id)sender;//追加9.22
+- (IBAction)swipe_down:(id)sender;//追加9.22
 @end
 
 @implementation WeekViewController
@@ -32,10 +34,15 @@
     [self drawWeekdays];
 }
 
+- (void)initDate {//追加9.22
+    _curDate = [NSDate date];
+    [self drawWeekdays];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.canDisplayBannerAds = YES; // auto add iAd banner
+//    self.canDisplayBannerAds = YES; // auto add iAd banner
 }
 
 - (void)didReceiveMemoryWarning {
@@ -97,9 +104,13 @@
     }
 }
 
-- (IBAction)pushBtnNextWeek:(id)sender {
-    _curDate = [_curDate initWithTimeInterval:(7*60*60*24) sinceDate:_curDate];
+- (void)changeWeek:(int)weeks {//追加9.22
+    _curDate = [_curDate initWithTimeInterval:(60*60*24*7*weeks) sinceDate:_curDate];
     [self drawWeekdays];
+}
+
+- (IBAction)pushBtnNextWeek:(id)sender {
+    [self changeWeek:+1];//変更9.22
 }
 
 - (IBAction)swipe_left:(id)sender {
@@ -109,5 +120,17 @@
 - (IBAction)swipe_right:(id)sender {
     MyTabBarController *tb = (MyTabBarController*)self.tabBarController;
     [tb handleSwipeRight];
+}
+
+- (IBAction)swipe_up:(id)sender {//追加9.22
+    [self changeWeek:+1];
+}
+
+- (IBAction)swipe_down:(id)sender {//追加9.22
+    [self changeWeek:-1];
+}
+
+- (IBAction)reset2today:(id)sender {//追加9.22
+    [self initDate];
 }
 @end

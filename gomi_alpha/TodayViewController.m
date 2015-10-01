@@ -9,6 +9,7 @@
 #import "TodayViewController.h"
 #import "HandleDb.h"
 #import "MyTabBarController.h"
+#import <QuartzCore/QuartzCore.h> //UIViewを角丸にする //追加9.22
 
 @interface TodayViewController ()
 {
@@ -22,12 +23,15 @@
 @property (weak, nonatomic) IBOutlet UIImageView *imgNext1;
 @property (weak, nonatomic) IBOutlet UIImageView *imgNext2;
 @property (weak, nonatomic) IBOutlet UIImageView *imgNext3;
-
 @property (strong, nonatomic) IBOutlet UISwitch *swSpeech;
-- (IBAction)touchSwSpeech:(id)sender;
 
+- (IBAction)touchSwSpeech:(id)sender;
 - (IBAction)swipe_left:(id)sender;
 - (IBAction)swipe_right:(id)sender;
+- (IBAction)swipe_upper:(id)sender;//追加9.22
+- (IBAction)swipe_down:(id)sender;//追加9.22
+- (IBAction)reset2today:(id)sender;//追加9.22
+
 @end
 
 @implementation TodayViewController
@@ -42,7 +46,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.canDisplayBannerAds = YES; // auto add iAd banner
+//    self.canDisplayBannerAds = YES; // auto add iAd banner
     //[self initCurrent];
 
 }
@@ -77,6 +81,11 @@
 
 - (void)initCurrent {
     _curDate = [NSDate date];
+    [self refreshCurrent];
+}
+
+- (void)changeDate:(int)days {//追加9.22
+    _curDate = [_curDate initWithTimeInterval:(60*60*24)*days sinceDate:_curDate];
     [self refreshCurrent];
 }
 
@@ -173,4 +182,29 @@
     MyTabBarController *tb = (MyTabBarController*)self.tabBarController;
     [tb handleSwipeRight];
 }
+//↓追加9.22
+- (IBAction)swipe_upper:(id)sender {
+    NSLog(@"swipe up");
+    [self changeDate:+1];
+}
+
+- (IBAction)swipe_down:(id)sender {
+    NSLog(@"swipe down");
+    [self changeDate:-1];
+}
+
+- (IBAction)reset2today:(id)sender {
+    [self initCurrent];
+}
+
+- (void)createRoundedRectangle {
+    // UIViewの角丸を設定する
+    UIView *view = [self.view viewWithTag:1];
+    view.layer.cornerRadius = 10.0f;
+    view.layer.masksToBounds = YES;
+    // UIView内全体のぼかし効果
+    view.layer.shouldRasterize = YES; //レイヤーをラスタライズする
+    view.layer.rasterizationScale = 0.5f; //レイヤーをラスタライズ時の縮小率
+    view.layer.minificationFilter = kCAFilterTrilinear; //レイヤーを縮小する際のフィルタ
+}//↑追加9.22
 @end

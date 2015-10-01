@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
 #import <iAd/iAd.h>
+#import <QuartzCore/QuartzCore.h> //UIViewを角丸にする　//追加9.22
 
 @interface TodayViewController : UIViewController
 
