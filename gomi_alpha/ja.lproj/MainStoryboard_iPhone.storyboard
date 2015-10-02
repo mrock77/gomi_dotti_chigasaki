@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="IUk-Ic-rlg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="IUk-Ic-rlg">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--大型ごみ-->
         <scene sceneID="RcW-Jz-k7j">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vck-ZT-Bp2" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="I1z-5V-KVE" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qBy-55-cZi"/>
@@ -18,7 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="back2today.png" translatesAutoresizingMaskIntoConstraints="NO" id="43T-u1-1Wg">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="H27wakedashi_P04.png" translatesAutoresizingMaskIntoConstraints="NO" id="43T-u1-1Wg">
                                 <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                             </imageView>
                         </subviews>
@@ -32,9 +33,8 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="大型ごみ" id="J5H-bP-b2x" userLabel="Tab Bar Item - 大型ごみ"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vck-ZT-Bp2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-295" y="1278"/>
+            <point key="canvasLocation" x="759" y="1270"/>
         </scene>
         <!--小型家電の回収対象-->
         <scene sceneID="agG-rM-pCL">
@@ -48,7 +48,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="kaden-kaisyu1.png" translatesAutoresizingMaskIntoConstraints="NO" id="oif-IV-cyf">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="kaden-kaisyu1.png" translatesAutoresizingMaskIntoConstraints="NO" id="oif-IV-cyf">
                                 <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                             </imageView>
                         </subviews>
@@ -79,7 +79,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="kaden-kaisyu2.png" translatesAutoresizingMaskIntoConstraints="NO" id="nby-bC-DOP">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="kaden-kaisyu2.png" translatesAutoresizingMaskIntoConstraints="NO" id="nby-bC-DOP">
                                 <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                             </imageView>
                         </subviews>
@@ -109,7 +109,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="recyle-place.png" translatesAutoresizingMaskIntoConstraints="NO" id="zOW-aN-siG">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="recyle-place.png" translatesAutoresizingMaskIntoConstraints="NO" id="zOW-aN-siG">
                                 <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                             </imageView>
                         </subviews>
@@ -139,7 +139,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="shigen-sonota-list.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ngs-Aa-LNF">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="H27wakedashi_P01.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ngs-Aa-LNF">
                                 <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                             </imageView>
                         </subviews>
@@ -155,7 +155,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6P7-vi-ILY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="761" y="615"/>
+            <point key="canvasLocation" x="-295" y="1262"/>
         </scene>
         <!--プラスチック製容器包装-->
         <scene sceneID="Xuw-QW-ljs">
@@ -169,7 +169,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="plastic-list.png" translatesAutoresizingMaskIntoConstraints="NO" id="XmO-YB-288">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="H27wakedashi_P02.png" translatesAutoresizingMaskIntoConstraints="NO" id="XmO-YB-288">
                                 <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                             </imageView>
                         </subviews>
@@ -185,7 +185,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fvS-tm-Z7L" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1097" y="615"/>
+            <point key="canvasLocation" x="41" y="1262"/>
         </scene>
         <!--特別大型ごみ-->
         <scene sceneID="fu2-Vm-wF0">
@@ -199,7 +199,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="special-oogata-list.png" translatesAutoresizingMaskIntoConstraints="NO" id="Jit-nl-Rso">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="H27wakedashi_P05.png" translatesAutoresizingMaskIntoConstraints="NO" id="Jit-nl-Rso">
                                 <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                             </imageView>
                         </subviews>
@@ -215,7 +215,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Enp-mp-Fqr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="54" y="1278"/>
+            <point key="canvasLocation" x="1108" y="1270"/>
         </scene>
         <!--剪定枝、小型家電リサイクル-->
         <scene sceneID="1Ek-ge-3Gj">
@@ -229,7 +229,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="eda&amp;smallkaden-list.png" translatesAutoresizingMaskIntoConstraints="NO" id="pRQ-Ev-g3t">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="H27wakedashi_P06.png" translatesAutoresizingMaskIntoConstraints="NO" id="pRQ-Ev-g3t">
                                 <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                             </imageView>
                         </subviews>
@@ -245,7 +245,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2W8-2G-l6p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="402" y="1278"/>
+            <point key="canvasLocation" x="1456" y="1270"/>
         </scene>
         <!--商品プラ・特定処理品目-->
         <scene sceneID="g3V-Zb-cZN">
@@ -259,7 +259,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="shohin-pla-list.png" translatesAutoresizingMaskIntoConstraints="NO" id="NUo-Lk-yd2">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="H27wakedashi_P03.png" translatesAutoresizingMaskIntoConstraints="NO" id="NUo-Lk-yd2">
                                 <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                             </imageView>
                         </subviews>
@@ -275,7 +275,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hrf-hR-7Sg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1446" y="615"/>
+            <point key="canvasLocation" x="390" y="1262"/>
         </scene>
         <!--市で収集、処理できないもの1-->
         <scene sceneID="Vfx-Zz-gfa">
@@ -289,7 +289,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="no-treat-list1.png" translatesAutoresizingMaskIntoConstraints="NO" id="coc-DU-aP4">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="H27wakedashi_P07.png" translatesAutoresizingMaskIntoConstraints="NO" id="coc-DU-aP4">
                                 <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                             </imageView>
                         </subviews>
@@ -305,11 +305,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="190-AI-C0M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="759" y="1278"/>
+            <point key="canvasLocation" x="-298" y="1904"/>
         </scene>
         <!--ごみ関連施設のご案内-->
         <scene sceneID="dxu-F9-Fn5">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qqt-IQ-hOt" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="eas-vT-qMS" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ayf-72-Foh"/>
@@ -319,7 +320,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="shisetsu-list.png" translatesAutoresizingMaskIntoConstraints="NO" id="7Wu-4U-0xW">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="H27wakedashi_P09.png" translatesAutoresizingMaskIntoConstraints="NO" id="7Wu-4U-0xW">
                                 <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                             </imageView>
                         </subviews>
@@ -333,9 +334,8 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="ごみ関連施設のご案内" id="afT-u1-GBr"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Qqt-IQ-hOt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1446" y="1278"/>
+            <point key="canvasLocation" x="389" y="1904"/>
         </scene>
         <!--市で収集、処理できないもの2-->
         <scene sceneID="fl1-3u-H76">
@@ -349,7 +349,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="no-treat-list2.png" translatesAutoresizingMaskIntoConstraints="NO" id="r8V-dc-Jrv">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="H27wakedashi_P08.png" translatesAutoresizingMaskIntoConstraints="NO" id="r8V-dc-Jrv">
                                 <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                             </imageView>
                         </subviews>
@@ -365,7 +365,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BIM-v1-UTf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1104" y="1278"/>
+            <point key="canvasLocation" x="47" y="1904"/>
         </scene>
         <!--My Tab Bar Controller-->
         <scene sceneID="9Hf-8W-cMj">
@@ -405,8 +405,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="回収なし" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kMP-tj-AL4">
-                                <rect key="frame" x="160" y="301.5" width="154" height="74"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text="回収なし" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kMP-tj-AL4">
+                                <rect key="frame" x="160" y="302" width="154" height="74"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="32"/>
                                 <nil key="highlightedColor"/>
@@ -417,47 +417,47 @@
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="32"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="回収なし" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T8I-cY-hLm">
-                                <rect key="frame" x="160" y="144.5" width="154" height="74"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text="回収なし" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T8I-cY-hLm">
+                                <rect key="frame" x="160" y="145" width="154" height="74"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="32"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="回収なし" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LId-1m-kfe">
-                                <rect key="frame" x="160" y="222.5" width="154" height="75"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text="回収なし" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LId-1m-kfe">
+                                <rect key="frame" x="160" y="223" width="154" height="75"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="32"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="回収なし" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bws-3O-sw4">
-                                <rect key="frame" x="160" y="66" width="154" height="74.5"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text="回収なし" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bws-3O-sw4">
+                                <rect key="frame" x="160" y="66" width="154" height="75"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="32"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="icon_moyaseru.png" translatesAutoresizingMaskIntoConstraints="NO" id="1Lo-aB-ldc" propertyAccessControl="none">
-                                <rect key="frame" x="160" y="301.5" width="154" height="74"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" image="icon_moyaseru.png" translatesAutoresizingMaskIntoConstraints="NO" id="1Lo-aB-ldc" propertyAccessControl="none">
+                                <rect key="frame" x="160" y="302" width="154" height="74"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="回収なし" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rvE-jf-hQF">
-                                <rect key="frame" x="160" y="379.5" width="154" height="74.5"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text="回収なし" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rvE-jf-hQF">
+                                <rect key="frame" x="160" y="380" width="154" height="75"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="32"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="01/20(火)" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="A2D-Av-43M">
-                                <rect key="frame" x="6" y="144.5" width="154" height="74"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" text="01/20(火)" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="A2D-Av-43M">
+                                <rect key="frame" x="6" y="145" width="154" height="74"/>
                                 <color key="backgroundColor" red="1" green="0.79607843140000001" blue="0.79607843140000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="36"/>
                                 <color key="highlightedColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="01/21(水)" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="C3m-xH-cCQ">
-                                <rect key="frame" x="6" y="222.5" width="154" height="75"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" text="01/21(水)" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="C3m-xH-cCQ">
+                                <rect key="frame" x="6" y="223" width="154" height="75"/>
                                 <color key="backgroundColor" red="0.82276459850000006" green="0.94545922729999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="36"/>
                                 <color key="highlightedColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="01/23(金)" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="uAm-dX-ukR">
-                                <rect key="frame" x="6" y="379.5" width="154" height="74.5"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" text="01/23(金)" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="uAm-dX-ukR">
+                                <rect key="frame" x="6" y="380" width="154" height="75"/>
                                 <color key="backgroundColor" red="1" green="0.79545454550000005" blue="0.79545454550000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="36"/>
                                 <color key="highlightedColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -468,8 +468,8 @@
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="32"/>
                                 <color key="highlightedColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="icon_iruinuno.png" translatesAutoresizingMaskIntoConstraints="NO" id="H1S-l8-OYI" propertyAccessControl="none">
-                                <rect key="frame" x="160" y="144.5" width="154" height="74"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" image="icon_iruinuno.png" translatesAutoresizingMaskIntoConstraints="NO" id="H1S-l8-OYI" propertyAccessControl="none">
+                                <rect key="frame" x="160" y="145" width="154" height="74"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="番地区" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bbf-62-d7L">
                                 <rect key="frame" x="254" y="20" width="60" height="30"/>
@@ -493,8 +493,8 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="icon_koshi.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZiQ-mr-hVP">
-                                <rect key="frame" x="160" y="66" width="154" height="74.5"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" image="icon_koshi.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZiQ-mr-hVP">
+                                <rect key="frame" x="160" y="66" width="154" height="75"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="icon_moyaseru.png" translatesAutoresizingMaskIntoConstraints="NO" id="WkS-0o-lCG" propertyAccessControl="none">
                                 <rect key="frame" x="160" y="457" width="154" height="29"/>
@@ -514,17 +514,17 @@
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="32"/>
                                 <color key="highlightedColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="01/19(月)" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="EXb-Rm-ZOX">
-                                <rect key="frame" x="6" y="66" width="154" height="74.5"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" text="01/19(月)" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="EXb-Rm-ZOX">
+                                <rect key="frame" x="6" y="66" width="154" height="75"/>
                                 <color key="backgroundColor" red="0.82261423919999999" green="0.80154262279999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="36"/>
                                 <color key="highlightedColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="icon_iruinuno.png" translatesAutoresizingMaskIntoConstraints="NO" id="MFt-WR-Q2P" propertyAccessControl="none">
-                                <rect key="frame" x="160" y="379.5" width="154" height="74.5"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" image="icon_iruinuno.png" translatesAutoresizingMaskIntoConstraints="NO" id="MFt-WR-Q2P" propertyAccessControl="none">
+                                <rect key="frame" x="160" y="380" width="154" height="75"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="01/22(木)" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="3Sh-XA-1Aq">
-                                <rect key="frame" x="6" y="301.5" width="154" height="74"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" text="01/22(木)" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="3Sh-XA-1Aq">
+                                <rect key="frame" x="6" y="302" width="154" height="74"/>
                                 <color key="backgroundColor" red="0.98545306990000003" green="1" blue="0.74590136620000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="36"/>
                                 <color key="highlightedColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -562,8 +562,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="icon_iruinuno.png" translatesAutoresizingMaskIntoConstraints="NO" id="Khw-kE-cDy" propertyAccessControl="none">
                                 <rect key="frame" x="160" y="488" width="154" height="29"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="icon_moyasenai.png" translatesAutoresizingMaskIntoConstraints="NO" id="AbT-uY-rnd" propertyAccessControl="none">
-                                <rect key="frame" x="160" y="222.5" width="154" height="75"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" image="icon_moyasenai.png" translatesAutoresizingMaskIntoConstraints="NO" id="AbT-uY-rnd" propertyAccessControl="none">
+                                <rect key="frame" x="160" y="223" width="154" height="75"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -889,14 +889,14 @@
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
-                            <imageView tag="2" contentMode="scaleToFill" image="icon_haiyukinzoku.png" translatesAutoresizingMaskIntoConstraints="NO" id="tYr-HQ-86B">
+                            <imageView tag="2" contentMode="scaleToFill" misplaced="YES" image="icon_haiyukinzoku.png" translatesAutoresizingMaskIntoConstraints="NO" id="tYr-HQ-86B">
                                 <rect key="frame" x="6" y="152" width="152" height="82"/>
                             </imageView>
-                            <imageView tag="3" contentMode="scaleToFill" image="icon_bincanpet.png" translatesAutoresizingMaskIntoConstraints="NO" id="WCe-ys-v6q">
-                                <rect key="frame" x="6" y="238" width="151.5" height="82.5"/>
+                            <imageView tag="3" contentMode="scaleToFill" misplaced="YES" image="icon_bincanpet.png" translatesAutoresizingMaskIntoConstraints="NO" id="WCe-ys-v6q">
+                                <rect key="frame" x="6" y="238" width="152" height="83"/>
                             </imageView>
-                            <imageView tag="6" contentMode="scaleToFill" image="icon_iruinuno.png" translatesAutoresizingMaskIntoConstraints="NO" id="NIV-Yh-tzg">
-                                <rect key="frame" x="162.5" y="195" width="151.5" height="61"/>
+                            <imageView tag="6" contentMode="scaleToFill" misplaced="YES" image="icon_iruinuno.png" translatesAutoresizingMaskIntoConstraints="NO" id="NIV-Yh-tzg">
+                                <rect key="frame" x="163" y="195" width="152" height="61"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="XX/XX(X)" lineBreakMode="tailTruncation" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="LxF-Ic-JFO">
                                 <rect key="frame" x="19" y="471" width="186" height="44"/>
@@ -908,10 +908,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView tag="5" contentMode="scaleToFill" image="icon_moyasenai.png" translatesAutoresizingMaskIntoConstraints="NO" id="3DM-jt-r2p">
-                                <rect key="frame" x="162.5" y="131" width="151" height="60.5"/>
+                                <rect key="frame" x="163" y="131" width="151" height="61"/>
                             </imageView>
-                            <imageView tag="4" contentMode="scaleToFill" image="icon_moyaseru.png" translatesAutoresizingMaskIntoConstraints="NO" id="Pbr-Wx-dVt">
-                                <rect key="frame" x="162.5" y="66" width="151.5" height="61"/>
+                            <imageView tag="4" contentMode="scaleToFill" misplaced="YES" image="icon_moyaseru.png" translatesAutoresizingMaskIntoConstraints="NO" id="Pbr-Wx-dVt">
+                                <rect key="frame" x="163" y="66" width="152" height="61"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="特定大型ごみ、特定粗大ごみの収集の申し込みは、予約専用ダイヤル" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="BPi-JD-SP8">
                                 <rect key="frame" x="16" y="360" width="288" height="36"/>
@@ -985,11 +985,11 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                                     <action selector="tapTEL" destination="SnU-nH-BS8" eventType="touchUpInside" id="aWd-EG-B7g"/>
                                 </connections>
                             </button>
-                            <imageView tag="1" contentMode="scaleToFill" image="icon_plastic.png" translatesAutoresizingMaskIntoConstraints="NO" id="aZU-Os-XNi">
-                                <rect key="frame" x="6" y="66" width="151.5" height="82.5"/>
+                            <imageView tag="1" contentMode="scaleToFill" misplaced="YES" image="icon_plastic.png" translatesAutoresizingMaskIntoConstraints="NO" id="aZU-Os-XNi">
+                                <rect key="frame" x="6" y="66" width="152" height="83"/>
                             </imageView>
-                            <imageView tag="7" contentMode="scaleToFill" image="icon_koshi.png" translatesAutoresizingMaskIntoConstraints="NO" id="86U-9f-rdy">
-                                <rect key="frame" x="162.5" y="260" width="151.5" height="60.5"/>
+                            <imageView tag="7" contentMode="scaleToFill" misplaced="YES" image="icon_koshi.png" translatesAutoresizingMaskIntoConstraints="NO" id="86U-9f-rdy">
+                                <rect key="frame" x="163" y="260" width="152" height="61"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="0467-57-1166" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="FYU-4B-h0d">
                                 <rect key="frame" x="16" y="398" width="143" height="24"/>
@@ -1160,7 +1160,7 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mV0-5c-As7">
-                                <rect key="frame" x="165" y="191" width="139" height="78.5"/>
+                                <rect key="frame" x="165" y="191" width="139" height="79"/>
                                 <color key="backgroundColor" red="0.93700396829999999" green="0.93700396829999999" blue="0.93700396829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="30"/>
                                 <state key="normal" title="５番地区">
@@ -1171,7 +1171,7 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dZl-Tp-Kpa">
-                                <rect key="frame" x="165" y="354" width="139" height="78.5"/>
+                                <rect key="frame" x="165" y="354" width="139" height="79"/>
                                 <color key="backgroundColor" red="0.93700396829999999" green="0.93700396829999999" blue="0.93700396829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="30"/>
                                 <state key="normal" title="７番地区">
@@ -1181,8 +1181,8 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                                     <action selector="btnBlk7:" destination="UFz-DU-91U" eventType="touchUpInside" id="tAI-j0-QjZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dss-Yg-lF6">
-                                <rect key="frame" x="165" y="272.5" width="139" height="78.5"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dss-Yg-lF6">
+                                <rect key="frame" x="165" y="273" width="139" height="79"/>
                                 <color key="backgroundColor" red="0.93700396829999999" green="0.93700396829999999" blue="0.93700396829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="30"/>
                                 <state key="normal" title="６番地区">
@@ -1193,7 +1193,7 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CB1-qn-Kua">
-                                <rect key="frame" x="16" y="191" width="139" height="78.5"/>
+                                <rect key="frame" x="16" y="191" width="139" height="79"/>
                                 <color key="backgroundColor" red="0.93700396829999999" green="0.93700396829999999" blue="0.93700396829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="30"/>
                                 <state key="normal" title="１番地区">
@@ -1203,8 +1203,8 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                                     <action selector="btnBlk1:" destination="UFz-DU-91U" eventType="touchUpInside" id="zLc-ko-78R"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ql-XK-yNv">
-                                <rect key="frame" x="16" y="272.5" width="139" height="78.5"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ql-XK-yNv">
+                                <rect key="frame" x="16" y="273" width="139" height="79"/>
                                 <color key="backgroundColor" red="0.93700396829999999" green="0.93700396829999999" blue="0.93700396829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="30"/>
                                 <state key="normal" title="２番地区">
@@ -1215,7 +1215,7 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gpI-Hs-aup">
-                                <rect key="frame" x="16" y="354" width="139" height="78.5"/>
+                                <rect key="frame" x="16" y="354" width="139" height="79"/>
                                 <color key="backgroundColor" red="0.93700396829999999" green="0.93700396829999999" blue="0.93700396829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="30"/>
                                 <state key="normal" title="３番地区">
@@ -1225,8 +1225,8 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                                     <action selector="btnBlk3:" destination="UFz-DU-91U" eventType="touchUpInside" id="Wx3-a2-QR6"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="62S-5b-fwr">
-                                <rect key="frame" x="165" y="435.5" width="139" height="78.5"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="62S-5b-fwr">
+                                <rect key="frame" x="165" y="436" width="139" height="79"/>
                                 <color key="backgroundColor" red="0.93700396829999999" green="0.93700396829999999" blue="0.93700396829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="30"/>
                                 <state key="normal" title="８番地区">
@@ -1271,8 +1271,8 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mHK-Vb-xCY">
-                                <rect key="frame" x="16" y="435.5" width="139" height="78.5"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mHK-Vb-xCY">
+                                <rect key="frame" x="16" y="436" width="139" height="79"/>
                                 <color key="backgroundColor" red="0.93700396829999999" green="0.93700396829999999" blue="0.93700396829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="30"/>
                                 <state key="normal" title="４番地区">
@@ -1351,7 +1351,7 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="942" y="-121"/>
+            <point key="canvasLocation" x="1626" y="-121"/>
         </scene>
         <!--today-->
         <scene sceneID="7n7-Ky-ZFl">
@@ -1735,7 +1735,7 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                 <placeholder placeholderIdentifier="IBFirstResponder" id="olL-hX-4Nf" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="WS4-Yi-43y" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="550" y="-121"/>
+            <point key="canvasLocation" x="1234" y="-121"/>
         </scene>
         <!--WebAddressSearch-->
         <scene sceneID="5Aq-67-sNk">
@@ -1776,7 +1776,7 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MMB-1N-Kma" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="dKR-cx-5sf" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1378" y="-71"/>
+            <point key="canvasLocation" x="2062" y="-71"/>
         </scene>
         <!--Get Location View Controller-->
         <scene sceneID="dbo-8C-oB3">
@@ -1839,7 +1839,7 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZLa-Q0-Yil" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="XE6-Ki-HW4" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1723" y="-71"/>
+            <point key="canvasLocation" x="2407" y="-71"/>
         </scene>
         <!--pdf test-->
         <scene sceneID="EjG-f7-gen">
@@ -1881,11 +1881,511 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
             </objects>
             <point key="canvasLocation" x="-650" y="615"/>
         </scene>
+        <!--特別大型ごみ-->
+        <scene sceneID="vGg-Kw-fMq">
+            <objects>
+                <viewController id="xsj-kM-nuH" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HLs-dr-U1J"/>
+                        <viewControllerLayoutGuide type="bottom" id="U0U-it-geV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tVD-tl-xN3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="H27wakedashi_P11.png" translatesAutoresizingMaskIntoConstraints="NO" id="38g-Hu-51P">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="U0U-it-geV" firstAttribute="top" secondItem="38g-Hu-51P" secondAttribute="bottom" id="BKd-y1-Gi7"/>
+                            <constraint firstItem="38g-Hu-51P" firstAttribute="top" secondItem="HLs-dr-U1J" secondAttribute="bottom" id="SsQ-eU-Bxk"/>
+                            <constraint firstItem="38g-Hu-51P" firstAttribute="leading" secondItem="tVD-tl-xN3" secondAttribute="leading" id="ar6-yz-B75"/>
+                            <constraint firstItem="38g-Hu-51P" firstAttribute="trailing" secondItem="tVD-tl-xN3" secondAttribute="trailing" id="wZn-4M-Gmj"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="特別大型ごみ" id="F04-ur-pOt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zGk-LB-6WJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1115" y="1904"/>
+        </scene>
+        <!--剪定枝、小型家電リサイクル-->
+        <scene sceneID="W3Y-Zy-vOI">
+            <objects>
+                <viewController id="SJR-iF-370" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3ak-sd-wae"/>
+                        <viewControllerLayoutGuide type="bottom" id="hcp-4G-1sY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="inz-tw-rwW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="H27wakedashi_P12.png" translatesAutoresizingMaskIntoConstraints="NO" id="tV9-gM-fyS">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tV9-gM-fyS" firstAttribute="trailing" secondItem="inz-tw-rwW" secondAttribute="trailing" id="21c-gY-5za"/>
+                            <constraint firstItem="hcp-4G-1sY" firstAttribute="top" secondItem="tV9-gM-fyS" secondAttribute="bottom" id="7s5-so-lm7"/>
+                            <constraint firstItem="tV9-gM-fyS" firstAttribute="top" secondItem="3ak-sd-wae" secondAttribute="bottom" id="XlK-XP-NGy"/>
+                            <constraint firstItem="tV9-gM-fyS" firstAttribute="leading" secondItem="inz-tw-rwW" secondAttribute="leading" id="mQy-1U-CL8"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="剪定枝、小型家電リサイクル" id="7dI-Pm-uh9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NSY-QD-pKU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1463" y="1904"/>
+        </scene>
+        <!--大型ごみ-->
+        <scene sceneID="flJ-P5-sbw">
+            <objects>
+                <viewController id="gtI-S5-aZJ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cus-ir-OOF"/>
+                        <viewControllerLayoutGuide type="bottom" id="yv5-N4-UQP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Gbo-Wq-sBS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="H27wakedashi_P16.png" translatesAutoresizingMaskIntoConstraints="NO" id="EqH-1x-9ks">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="EqH-1x-9ks" firstAttribute="leading" secondItem="Gbo-Wq-sBS" secondAttribute="leading" id="BHl-Y3-53Y"/>
+                            <constraint firstItem="EqH-1x-9ks" firstAttribute="top" secondItem="cus-ir-OOF" secondAttribute="bottom" id="UJc-W7-4lx"/>
+                            <constraint firstItem="EqH-1x-9ks" firstAttribute="trailing" secondItem="Gbo-Wq-sBS" secondAttribute="trailing" id="c5h-el-QCu"/>
+                            <constraint firstItem="yv5-N4-UQP" firstAttribute="top" secondItem="EqH-1x-9ks" secondAttribute="bottom" id="t0G-gJ-h3I"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="大型ごみ" id="oTI-0i-fcd" userLabel="Tab Bar Item - 大型ごみ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QJg-ga-4pm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="759" y="2562"/>
+        </scene>
+        <!--剪定枝、小型家電リサイクル-->
+        <scene sceneID="29f-Nr-6T1">
+            <objects>
+                <viewController id="kjS-Fi-bUc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Q13-L5-0No"/>
+                        <viewControllerLayoutGuide type="bottom" id="vid-46-SDW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="K7R-aY-UdV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="H27wakedashi_P18.png" translatesAutoresizingMaskIntoConstraints="NO" id="x1f-8g-HUy">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="x1f-8g-HUy" firstAttribute="top" secondItem="Q13-L5-0No" secondAttribute="bottom" id="8gc-za-hOe"/>
+                            <constraint firstItem="x1f-8g-HUy" firstAttribute="trailing" secondItem="K7R-aY-UdV" secondAttribute="trailing" id="AnW-cx-MOj"/>
+                            <constraint firstItem="x1f-8g-HUy" firstAttribute="leading" secondItem="K7R-aY-UdV" secondAttribute="leading" id="Rk6-iZ-Ygf"/>
+                            <constraint firstItem="vid-46-SDW" firstAttribute="top" secondItem="x1f-8g-HUy" secondAttribute="bottom" id="aGZ-nC-VLY"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="剪定枝、小型家電リサイクル" id="PER-J9-xll"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WfR-Xc-PBs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1456" y="2562"/>
+        </scene>
+        <!--市で収集、処理できないもの2-->
+        <scene sceneID="eoc-dS-bOc">
+            <objects>
+                <viewController id="pqa-Y0-8lX" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cik-Wm-gDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="6Fi-mv-ivk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PpG-4s-vVH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="H27wakedashi_P20.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZMv-3v-KFy">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ZMv-3v-KFy" firstAttribute="trailing" secondItem="PpG-4s-vVH" secondAttribute="trailing" id="KJs-lI-MQq"/>
+                            <constraint firstItem="ZMv-3v-KFy" firstAttribute="top" secondItem="cik-Wm-gDJ" secondAttribute="bottom" id="R8m-Tu-fe5"/>
+                            <constraint firstItem="6Fi-mv-ivk" firstAttribute="top" secondItem="ZMv-3v-KFy" secondAttribute="bottom" id="Roa-pC-2Lj"/>
+                            <constraint firstItem="ZMv-3v-KFy" firstAttribute="leading" secondItem="PpG-4s-vVH" secondAttribute="leading" id="aoq-kh-SHy"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="市で収集、処理できないもの2" id="yZs-8M-Pj3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D40-rG-MLV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47" y="3198"/>
+        </scene>
+        <!--大型ごみ-->
+        <scene sceneID="puH-Um-czb">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hVp-iu-ZTu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="G1J-3y-Zm1" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KZ4-OF-P7o"/>
+                        <viewControllerLayoutGuide type="bottom" id="bDF-jq-jBP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fRL-3W-rhO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="H27wakedashi_P10.png" translatesAutoresizingMaskIntoConstraints="NO" id="iqC-oR-J51">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iqC-oR-J51" firstAttribute="top" secondItem="KZ4-OF-P7o" secondAttribute="bottom" id="AAE-Sk-jVS"/>
+                            <constraint firstItem="bDF-jq-jBP" firstAttribute="top" secondItem="iqC-oR-J51" secondAttribute="bottom" id="Si6-CO-Wiu"/>
+                            <constraint firstItem="iqC-oR-J51" firstAttribute="leading" secondItem="fRL-3W-rhO" secondAttribute="leading" id="ulI-9P-MW0"/>
+                            <constraint firstItem="iqC-oR-J51" firstAttribute="trailing" secondItem="fRL-3W-rhO" secondAttribute="trailing" id="zoH-mu-iNs"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="大型ごみ" id="JlA-c5-GI8" userLabel="Tab Bar Item - 大型ごみ"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="746" y="1904"/>
+        </scene>
+        <!--市で収集、処理できないもの1-->
+        <scene sceneID="756-Uw-jAn">
+            <objects>
+                <viewController id="ysZ-CM-kHy" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9fQ-Fn-xgb"/>
+                        <viewControllerLayoutGuide type="bottom" id="jjD-t0-Bab"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="H6a-2w-9TB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="H27wakedashi_P13.png" translatesAutoresizingMaskIntoConstraints="NO" id="kmL-at-zBz">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="kmL-at-zBz" firstAttribute="trailing" secondItem="H6a-2w-9TB" secondAttribute="trailing" id="DO0-09-eRr"/>
+                            <constraint firstItem="jjD-t0-Bab" firstAttribute="top" secondItem="kmL-at-zBz" secondAttribute="bottom" id="Meu-Cs-gFE"/>
+                            <constraint firstItem="kmL-at-zBz" firstAttribute="top" secondItem="9fQ-Fn-xgb" secondAttribute="bottom" id="Z04-ws-mdb"/>
+                            <constraint firstItem="kmL-at-zBz" firstAttribute="leading" secondItem="H6a-2w-9TB" secondAttribute="leading" id="ZuQ-Hn-AAy"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="市で収集、処理できないもの1" id="whR-rN-16s"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IPa-T6-JGx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-295" y="2552"/>
+        </scene>
+        <!--ごみ関連施設のご案内-->
+        <scene sceneID="Pgj-nR-4x3">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jbj-pQ-nAF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="LaD-oY-rE8" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="a51-xA-Nbz"/>
+                        <viewControllerLayoutGuide type="bottom" id="wES-0L-vCP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bI-ct-2Qt">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="H27wakedashi_P15.png" translatesAutoresizingMaskIntoConstraints="NO" id="wc3-9i-V0o">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wES-0L-vCP" firstAttribute="top" secondItem="wc3-9i-V0o" secondAttribute="bottom" id="O9S-sY-NP6"/>
+                            <constraint firstItem="wc3-9i-V0o" firstAttribute="top" secondItem="a51-xA-Nbz" secondAttribute="bottom" id="PlM-Hs-bto"/>
+                            <constraint firstItem="wc3-9i-V0o" firstAttribute="leading" secondItem="8bI-ct-2Qt" secondAttribute="leading" id="pge-cq-W9k"/>
+                            <constraint firstItem="wc3-9i-V0o" firstAttribute="trailing" secondItem="8bI-ct-2Qt" secondAttribute="trailing" id="tkZ-l1-1zF"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="ごみ関連施設のご案内" id="zy6-oh-frd"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="392" y="2552"/>
+        </scene>
+        <!--市で収集、処理できないもの2-->
+        <scene sceneID="she-qv-bMy">
+            <objects>
+                <viewController id="QlK-Ow-cZp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Dl8-AO-tT7"/>
+                        <viewControllerLayoutGuide type="bottom" id="D0f-29-PPo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="foz-tt-tCT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="H27wakedashi_P14.png" translatesAutoresizingMaskIntoConstraints="NO" id="cYX-WY-Xsx">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="D0f-29-PPo" firstAttribute="top" secondItem="cYX-WY-Xsx" secondAttribute="bottom" id="3DG-li-45M"/>
+                            <constraint firstItem="cYX-WY-Xsx" firstAttribute="top" secondItem="Dl8-AO-tT7" secondAttribute="bottom" id="JfL-rE-UaW"/>
+                            <constraint firstItem="cYX-WY-Xsx" firstAttribute="trailing" secondItem="foz-tt-tCT" secondAttribute="trailing" id="uVw-Gh-pNT"/>
+                            <constraint firstItem="cYX-WY-Xsx" firstAttribute="leading" secondItem="foz-tt-tCT" secondAttribute="leading" id="vEs-Vd-8pe"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="市で収集、処理できないもの2" id="xF8-gx-S4h"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sew-8v-mgy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50" y="2552"/>
+        </scene>
+        <!--特別大型ごみ-->
+        <scene sceneID="Ga6-7f-3Ip">
+            <objects>
+                <viewController id="iHW-HO-mkh" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="S6t-ti-pgn"/>
+                        <viewControllerLayoutGuide type="bottom" id="TEC-R0-5ss"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TUW-Ff-Be0">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="H27wakedashi_P17.png" translatesAutoresizingMaskIntoConstraints="NO" id="lC2-LK-izo">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lC2-LK-izo" firstAttribute="trailing" secondItem="TUW-Ff-Be0" secondAttribute="trailing" id="DEM-65-sGL"/>
+                            <constraint firstItem="TEC-R0-5ss" firstAttribute="top" secondItem="lC2-LK-izo" secondAttribute="bottom" id="ph6-u3-u3s"/>
+                            <constraint firstItem="lC2-LK-izo" firstAttribute="top" secondItem="S6t-ti-pgn" secondAttribute="bottom" id="ub7-rR-wKI"/>
+                            <constraint firstItem="lC2-LK-izo" firstAttribute="leading" secondItem="TUW-Ff-Be0" secondAttribute="leading" id="zoD-7n-kMd"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="特別大型ごみ" id="XXG-y4-hbP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sqx-U1-NKJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1108" y="2562"/>
+        </scene>
+        <!--市で収集、処理できないもの1-->
+        <scene sceneID="H0U-Py-NJc">
+            <objects>
+                <viewController id="2pV-RY-P4z" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="g0R-hg-urI"/>
+                        <viewControllerLayoutGuide type="bottom" id="Pjr-LL-GXA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IGl-p3-r3C">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="H27wakedashi_P19.png" translatesAutoresizingMaskIntoConstraints="NO" id="mpi-O4-Ybf">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mpi-O4-Ybf" firstAttribute="trailing" secondItem="IGl-p3-r3C" secondAttribute="trailing" id="M5J-Xk-WPJ"/>
+                            <constraint firstItem="mpi-O4-Ybf" firstAttribute="top" secondItem="g0R-hg-urI" secondAttribute="bottom" id="tSG-v4-I2s"/>
+                            <constraint firstItem="mpi-O4-Ybf" firstAttribute="leading" secondItem="IGl-p3-r3C" secondAttribute="leading" id="x4T-Dg-4sW"/>
+                            <constraint firstItem="Pjr-LL-GXA" firstAttribute="top" secondItem="mpi-O4-Ybf" secondAttribute="bottom" id="xUS-dT-REx"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="市で収集、処理できないもの1" id="lE8-1c-gAy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gtm-jy-Bqn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-298" y="3198"/>
+        </scene>
+        <!--ごみ関連施設のご案内-->
+        <scene sceneID="wYf-7H-iur">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m2T-az-2ir" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="BHf-2V-AMK" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ijh-VZ-7BR"/>
+                        <viewControllerLayoutGuide type="bottom" id="MtV-kq-WE5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xlA-Jn-FFq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="pamphlet_P1.png" translatesAutoresizingMaskIntoConstraints="NO" id="xL7-f7-E5J">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MtV-kq-WE5" firstAttribute="top" secondItem="xL7-f7-E5J" secondAttribute="bottom" id="NKQ-ZA-M3H"/>
+                            <constraint firstItem="xL7-f7-E5J" firstAttribute="top" secondItem="Ijh-VZ-7BR" secondAttribute="bottom" id="dbD-86-ZmD"/>
+                            <constraint firstItem="xL7-f7-E5J" firstAttribute="trailing" secondItem="xlA-Jn-FFq" secondAttribute="trailing" id="h6n-ZS-pAa"/>
+                            <constraint firstItem="xL7-f7-E5J" firstAttribute="leading" secondItem="xlA-Jn-FFq" secondAttribute="leading" id="lQj-IW-6GD"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="ごみ関連施設のご案内" id="bYT-hf-hvd"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1104" y="622"/>
+        </scene>
+        <!--大型ごみ-->
+        <scene sceneID="saT-HZ-cf4">
+            <objects>
+                <viewController id="rV1-dG-OTE" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DRZ-hz-fjc"/>
+                        <viewControllerLayoutGuide type="bottom" id="mXQ-nH-Enc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="K00-4H-Rhg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="pamphlet_P2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Zih-Ub-8fv">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mXQ-nH-Enc" firstAttribute="top" secondItem="Zih-Ub-8fv" secondAttribute="bottom" id="a0s-lv-476"/>
+                            <constraint firstItem="Zih-Ub-8fv" firstAttribute="top" secondItem="DRZ-hz-fjc" secondAttribute="bottom" id="aJc-38-KRU"/>
+                            <constraint firstItem="Zih-Ub-8fv" firstAttribute="trailing" secondItem="K00-4H-Rhg" secondAttribute="trailing" id="t1g-pG-qac"/>
+                            <constraint firstItem="Zih-Ub-8fv" firstAttribute="leading" secondItem="K00-4H-Rhg" secondAttribute="leading" id="wpL-5B-WnN"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="大型ごみ" id="Ds1-8M-P4h" userLabel="Tab Bar Item - 大型ごみ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qm9-2k-vo9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1450" y="622"/>
+        </scene>
+        <!--剪定枝、小型家電リサイクル-->
+        <scene sceneID="q71-OI-7m8">
+            <objects>
+                <viewController id="b3J-it-j3v" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7Ll-IV-aHL"/>
+                        <viewControllerLayoutGuide type="bottom" id="J8u-96-eWZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Juf-HB-oWH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="konnposuto-jyouzunatukaikata_P2.png" translatesAutoresizingMaskIntoConstraints="NO" id="PqI-N8-WNV">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="PqI-N8-WNV" firstAttribute="top" secondItem="7Ll-IV-aHL" secondAttribute="bottom" id="7NJ-6u-VcM"/>
+                            <constraint firstItem="J8u-96-eWZ" firstAttribute="top" secondItem="PqI-N8-WNV" secondAttribute="bottom" id="SFr-dh-ne5"/>
+                            <constraint firstItem="PqI-N8-WNV" firstAttribute="leading" secondItem="Juf-HB-oWH" secondAttribute="leading" id="jNn-IO-QMk"/>
+                            <constraint firstItem="PqI-N8-WNV" firstAttribute="trailing" secondItem="Juf-HB-oWH" secondAttribute="trailing" id="kjE-41-zc0"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="剪定枝、小型家電リサイクル" id="0wm-cn-0iU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aU4-K1-ZLn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="734" y="3198"/>
+        </scene>
+        <!--特別大型ごみ-->
+        <scene sceneID="a9y-3o-Kmm">
+            <objects>
+                <viewController id="sZg-jg-M7t" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sjJ-5D-OwV"/>
+                        <viewControllerLayoutGuide type="bottom" id="y6S-g2-Ryw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tFm-Wy-cbY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="konnposuto-jyouzunatukaikata_P1.png" translatesAutoresizingMaskIntoConstraints="NO" id="en3-1R-nIr">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="en3-1R-nIr" firstAttribute="top" secondItem="sjJ-5D-OwV" secondAttribute="bottom" id="KPo-6M-TdH"/>
+                            <constraint firstItem="en3-1R-nIr" firstAttribute="leading" secondItem="tFm-Wy-cbY" secondAttribute="leading" id="VxN-WJ-mIn"/>
+                            <constraint firstItem="en3-1R-nIr" firstAttribute="trailing" secondItem="tFm-Wy-cbY" secondAttribute="trailing" id="p1g-m7-iUk"/>
+                            <constraint firstItem="y6S-g2-Ryw" firstAttribute="top" secondItem="en3-1R-nIr" secondAttribute="bottom" id="tkK-JY-eR4"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="特別大型ごみ" id="8ec-fx-VRD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V5D-Hx-B1i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="389" y="3198"/>
+        </scene>
+        <!--市で収集、処理できないもの1-->
+        <scene sceneID="SEf-xs-hxL">
+            <objects>
+                <viewController id="bLP-wg-xhD" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OSL-eH-Wvg"/>
+                        <viewControllerLayoutGuide type="bottom" id="0Jp-py-Wor"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Hgd-6W-3Uq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="chizu-chigasaki-samukawa-innsatu.png" translatesAutoresizingMaskIntoConstraints="NO" id="4Dt-XW-gcf">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4Dt-XW-gcf" firstAttribute="top" secondItem="OSL-eH-Wvg" secondAttribute="bottom" id="HJV-gd-UmX"/>
+                            <constraint firstItem="4Dt-XW-gcf" firstAttribute="trailing" secondItem="Hgd-6W-3Uq" secondAttribute="trailing" id="Ky0-Vi-vCi"/>
+                            <constraint firstItem="4Dt-XW-gcf" firstAttribute="leading" secondItem="Hgd-6W-3Uq" secondAttribute="leading" id="VNO-As-yoo"/>
+                            <constraint firstItem="0Jp-py-Wor" firstAttribute="top" secondItem="4Dt-XW-gcf" secondAttribute="bottom" id="gGN-Mw-EiR"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="市で収集、処理できないもの1" id="2GL-vY-bSV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VNF-6H-pkm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="759" y="615"/>
+        </scene>
     </scenes>
     <resources>
         <image name="1blk-2015-09.png" width="1110" height="900"/>
+        <image name="H27wakedashi_P01.png" width="1241" height="1766"/>
+        <image name="H27wakedashi_P02.png" width="1241" height="1754"/>
+        <image name="H27wakedashi_P03.png" width="1241" height="1754"/>
+        <image name="H27wakedashi_P04.png" width="1249" height="1754"/>
+        <image name="H27wakedashi_P05.png" width="1241" height="1754"/>
+        <image name="H27wakedashi_P06.png" width="1241" height="1754"/>
+        <image name="H27wakedashi_P07.png" width="1241" height="1754"/>
+        <image name="H27wakedashi_P08.png" width="1249" height="1754"/>
+        <image name="H27wakedashi_P09.png" width="1257" height="1778"/>
+        <image name="H27wakedashi_P10.png" width="1241" height="1754"/>
+        <image name="H27wakedashi_P11.png" width="1241" height="1754"/>
+        <image name="H27wakedashi_P12.png" width="1654" height="2339"/>
+        <image name="H27wakedashi_P13.png" width="1654" height="2339"/>
+        <image name="H27wakedashi_P14.png" width="1654" height="2339"/>
+        <image name="H27wakedashi_P15.png" width="1654" height="2339"/>
+        <image name="H27wakedashi_P16.png" width="1654" height="2339"/>
+        <image name="H27wakedashi_P17.png" width="1654" height="2339"/>
+        <image name="H27wakedashi_P18.png" width="1654" height="2339"/>
+        <image name="H27wakedashi_P19.png" width="984" height="1392"/>
+        <image name="H27wakedashi_P20.png" width="1654" height="2339"/>
         <image name="back2today.png" width="256" height="223"/>
-        <image name="eda&amp;smallkaden-list.png" width="490" height="750"/>
+        <image name="chizu-chigasaki-samukawa-innsatu.png" width="1654" height="2339"/>
         <image name="icon_bincanpet.png" width="400" height="200"/>
         <image name="icon_haiyukinzoku.png" width="400" height="200"/>
         <image name="icon_iruinuno.png" width="400" height="200"/>
@@ -1895,14 +2395,11 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
         <image name="icon_plastic.png" width="400" height="200"/>
         <image name="kaden-kaisyu1.png" width="626" height="881"/>
         <image name="kaden-kaisyu2.png" width="620" height="893"/>
-        <image name="no-treat-list1.png" width="1080" height="1643"/>
-        <image name="no-treat-list2.png" width="1074" height="1644"/>
-        <image name="plastic-list.png" width="493" height="750"/>
+        <image name="konnposuto-jyouzunatukaikata_P1.png" width="1654" height="2339"/>
+        <image name="konnposuto-jyouzunatukaikata_P2.png" width="1654" height="2339"/>
+        <image name="pamphlet_P1.png" width="1654" height="2339"/>
+        <image name="pamphlet_P2.png" width="1654" height="2339"/>
         <image name="recyle-place.png" width="562" height="875"/>
-        <image name="shigen-sonota-list.png" width="491" height="750"/>
-        <image name="shisetsu-list.png" width="491" height="750"/>
-        <image name="shohin-pla-list.png" width="491" height="750"/>
-        <image name="special-oogata-list.png" width="493" height="750"/>
         <image name="tab_month.png" width="30" height="30"/>
         <image name="tab_search.png" width="30" height="30"/>
         <image name="tab_setting.png" width="30" height="30"/>
@@ -1910,9 +2407,4 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
         <image name="tab_week.png" width="30" height="30"/>
         <image name="word_icon_koshi.png" width="400" height="66"/>
     </resources>
-    <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar"/>
-        <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
-    </simulatedMetricsContainer>
 </document>
