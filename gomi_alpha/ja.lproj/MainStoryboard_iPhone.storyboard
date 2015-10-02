@@ -6,10 +6,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--大型ごみ-->
+        <!--燃やせないごみ/間違えやすい分別-->
         <scene sceneID="RcW-Jz-k7j">
             <objects>
-                <viewController id="I1z-5V-KVE" sceneMemberID="viewController">
+                <viewController title="燃やせないごみ/間違えやすい分別" id="I1z-5V-KVE" userLabel="燃やせないごみ/間違えやすい分別" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qBy-55-cZi"/>
                         <viewControllerLayoutGuide type="bottom" id="Urf-6z-5rP"/>
@@ -30,7 +30,7 @@
                             <constraint firstItem="43T-u1-1Wg" firstAttribute="trailing" secondItem="JyU-F2-06l" secondAttribute="trailing" id="VZr-3P-1mE"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="大型ごみ" id="J5H-bP-b2x" userLabel="Tab Bar Item - 大型ごみ"/>
+                    <tabBarItem key="tabBarItem" title="燃やせないごみ/間違えやすい分別" id="J5H-bP-b2x" userLabel="燃やせないごみ/間違えやすい分別"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vck-ZT-Bp2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -127,10 +127,10 @@
             </objects>
             <point key="canvasLocation" x="410" y="615"/>
         </scene>
-        <!--資源(その他-集積所対象品目)-->
+        <!--ごみと資源物の分け方・出し方-->
         <scene sceneID="eUS-3I-udW">
             <objects>
-                <viewController id="vIX-cI-w01" sceneMemberID="viewController">
+                <viewController title="ごみと資源物の分け方・出し方" id="vIX-cI-w01" userLabel="ごみと資源物の分け方・出し方" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="47E-ib-Sbh"/>
                         <viewControllerLayoutGuide type="bottom" id="Rt9-NG-L8T"/>
@@ -151,16 +151,16 @@
                             <constraint firstItem="Ngs-Aa-LNF" firstAttribute="leading" secondItem="vlQ-x6-9LX" secondAttribute="leading" id="ktL-B0-A9T"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="資源(その他-集積所対象品目)" id="Waw-rE-cZf"/>
+                    <tabBarItem key="tabBarItem" title="ごみと資源物の分け方・出し方" id="Waw-rE-cZf" userLabel="ごみと資源物の分け方・出し方"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6P7-vi-ILY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-295" y="1262"/>
         </scene>
-        <!--プラスチック製容器包装-->
+        <!--出し方の注意点-->
         <scene sceneID="Xuw-QW-ljs">
             <objects>
-                <viewController id="vQy-RL-D1Z" sceneMemberID="viewController">
+                <viewController title="出し方の注意点" id="vQy-RL-D1Z" userLabel="出し方の注意点" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ygr-XS-TjG"/>
                         <viewControllerLayoutGuide type="bottom" id="RrC-oK-Zef"/>
@@ -181,16 +181,16 @@
                             <constraint firstItem="XmO-YB-288" firstAttribute="top" secondItem="Ygr-XS-TjG" secondAttribute="bottom" id="wzx-Lq-IBK"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="プラスチック製容器包装" id="L1H-bX-xnd"/>
+                    <tabBarItem key="tabBarItem" title="出し方の注意点" id="L1H-bX-xnd" userLabel="出し方の注意点"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fvS-tm-Z7L" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="41" y="1262"/>
         </scene>
-        <!--特別大型ごみ-->
+        <!--大型ごみ・特定大型ごみ・特定粗大ごみ/収入証紙販売所-->
         <scene sceneID="fu2-Vm-wF0">
             <objects>
-                <viewController id="uN5-FE-ur4" sceneMemberID="viewController">
+                <viewController title="大型ごみ・特定大型ごみ・特定粗大ごみ/収入証紙販売所" id="uN5-FE-ur4" userLabel="大型ごみ・特定大型ごみ・特定粗大ごみ/収入証紙販売所" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GEc-me-Tj6"/>
                         <viewControllerLayoutGuide type="bottom" id="Bg5-iA-9Bw"/>
@@ -211,16 +211,16 @@
                             <constraint firstItem="Jit-nl-Rso" firstAttribute="top" secondItem="GEc-me-Tj6" secondAttribute="bottom" id="pfd-Cw-cph"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="特別大型ごみ" id="sx1-Go-4AA"/>
+                    <tabBarItem key="tabBarItem" title="大型ごみ・特定大型ごみ・特定粗大ごみ/収入証紙販売所" id="sx1-Go-4AA"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Enp-mp-Fqr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1108" y="1270"/>
         </scene>
-        <!--剪定枝、小型家電リサイクル-->
+        <!--プラスチック製容器包装類-->
         <scene sceneID="1Ek-ge-3Gj">
             <objects>
-                <viewController id="kAF-tq-g7P" sceneMemberID="viewController">
+                <viewController title="プラスチック製容器包装類" id="kAF-tq-g7P" userLabel="プラスチック製容器包装類" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bAX-vn-hS2"/>
                         <viewControllerLayoutGuide type="bottom" id="Cu4-qY-y9Z"/>
@@ -241,16 +241,16 @@
                             <constraint firstItem="pRQ-Ev-g3t" firstAttribute="trailing" secondItem="XgF-Wp-bJD" secondAttribute="trailing" id="tI9-hN-vWE"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="剪定枝、小型家電リサイクル" id="rFd-8J-ua6"/>
+                    <tabBarItem key="tabBarItem" title="プラスチック製容器包装類" id="rFd-8J-ua6" userLabel="プラスチック製容器包装類"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2W8-2G-l6p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1456" y="1270"/>
         </scene>
-        <!--商品プラ・特定処理品目-->
+        <!--燃やせるごみ/カラス対策について-->
         <scene sceneID="g3V-Zb-cZN">
             <objects>
-                <viewController id="VoL-cH-XHe" sceneMemberID="viewController">
+                <viewController title="燃やせるごみ/カラス対策について" id="VoL-cH-XHe" userLabel="燃やせるごみ/カラス対策について" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oYb-fm-ObG"/>
                         <viewControllerLayoutGuide type="bottom" id="uaj-Nj-n4r"/>
@@ -271,16 +271,16 @@
                             <constraint firstItem="NUo-Lk-yd2" firstAttribute="leading" secondItem="U7G-dN-1WH" secondAttribute="leading" id="wiE-Jr-rnh"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="商品プラ・特定処理品目" id="bhS-eN-Pld"/>
+                    <tabBarItem key="tabBarItem" title="燃やせるごみ/カラス対策について" id="bhS-eN-Pld"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hrf-hR-7Sg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="390" y="1262"/>
         </scene>
-        <!--市で収集、処理できないもの1-->
+        <!--びん・かん・ペットボトル-->
         <scene sceneID="Vfx-Zz-gfa">
             <objects>
-                <viewController id="fcF-3I-NZR" sceneMemberID="viewController">
+                <viewController title="びん・かん・ペットボトル" id="fcF-3I-NZR" userLabel="びん・かん・ペットボトル" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="W6P-ns-ejw"/>
                         <viewControllerLayoutGuide type="bottom" id="CqN-l6-qqD"/>
@@ -301,16 +301,16 @@
                             <constraint firstItem="coc-DU-aP4" firstAttribute="trailing" secondItem="uxe-4t-bBF" secondAttribute="trailing" id="uGx-K1-RsZ"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="市で収集、処理できないもの1" id="sUC-04-1Zw"/>
+                    <tabBarItem key="tabBarItem" title="びん・かん・ペットボトル" id="sUC-04-1Zw"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="190-AI-C0M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-298" y="1904"/>
         </scene>
-        <!--ごみ関連施設のご案内-->
+        <!--廃食用油/金属類/使用済小型家電-->
         <scene sceneID="dxu-F9-Fn5">
             <objects>
-                <viewController id="eas-vT-qMS" sceneMemberID="viewController">
+                <viewController title="廃食用油/金属類/使用済小型家電" id="eas-vT-qMS" userLabel="廃食用油/金属類/使用済小型家電" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ayf-72-Foh"/>
                         <viewControllerLayoutGuide type="bottom" id="8tv-mV-mPx"/>
@@ -331,16 +331,16 @@
                             <constraint firstItem="7Wu-4U-0xW" firstAttribute="top" secondItem="ayf-72-Foh" secondAttribute="bottom" id="vbT-WV-jFi"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="ごみ関連施設のご案内" id="afT-u1-GBr"/>
+                    <tabBarItem key="tabBarItem" title="廃食用油/金属類/使用済小型家電" id="afT-u1-GBr" userLabel="廃食用油/金属類/使用済小型家電"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qqt-IQ-hOt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="389" y="1904"/>
         </scene>
-        <!--市で収集、処理できないもの2-->
+        <!--古紙・衣類・布類-->
         <scene sceneID="fl1-3u-H76">
             <objects>
-                <viewController id="5El-TC-yw5" sceneMemberID="viewController">
+                <viewController title="古紙・衣類・布類" id="5El-TC-yw5" userLabel="古紙・衣類・布類" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yjc-gF-ZZS"/>
                         <viewControllerLayoutGuide type="bottom" id="4o0-vo-z8A"/>
@@ -361,7 +361,7 @@
                             <constraint firstItem="r8V-dc-Jrv" firstAttribute="trailing" secondItem="Xhy-Bz-UuI" secondAttribute="trailing" id="dC6-Xv-GZI"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="市で収集、処理できないもの2" id="0N3-RS-5hn"/>
+                    <tabBarItem key="tabBarItem" title="古紙・衣類・布類" id="0N3-RS-5hn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BIM-v1-UTf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1906,10 +1906,10 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
             </objects>
             <point key="canvasLocation" x="-650" y="615"/>
         </scene>
-        <!--特別大型ごみ-->
+        <!--市で収集・処理できないもの２-->
         <scene sceneID="vGg-Kw-fMq">
             <objects>
-                <viewController id="xsj-kM-nuH" sceneMemberID="viewController">
+                <viewController title="市で収集・処理できないもの２" id="xsj-kM-nuH" userLabel="市で収集・処理できないもの２" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="HLs-dr-U1J"/>
                         <viewControllerLayoutGuide type="bottom" id="U0U-it-geV"/>
@@ -1930,16 +1930,16 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                             <constraint firstItem="38g-Hu-51P" firstAttribute="trailing" secondItem="tVD-tl-xN3" secondAttribute="trailing" id="wZn-4M-Gmj"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="特別大型ごみ" id="F04-ur-pOt"/>
+                    <tabBarItem key="tabBarItem" title="市で収集・処理できないもの２" id="F04-ur-pOt" userLabel="市で収集・処理できないもの２"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zGk-LB-6WJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1115" y="1904"/>
         </scene>
-        <!--剪定枝、小型家電リサイクル-->
+        <!--ごみと資源物の出し方（あ〜か）-->
         <scene sceneID="W3Y-Zy-vOI">
             <objects>
-                <viewController id="SJR-iF-370" sceneMemberID="viewController">
+                <viewController title="ごみと資源物の出し方（あ〜か）" id="SJR-iF-370" userLabel="ごみと資源物の出し方（あ〜か）" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3ak-sd-wae"/>
                         <viewControllerLayoutGuide type="bottom" id="hcp-4G-1sY"/>
@@ -1960,16 +1960,16 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                             <constraint firstItem="tV9-gM-fyS" firstAttribute="leading" secondItem="inz-tw-rwW" secondAttribute="leading" id="mQy-1U-CL8"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="剪定枝、小型家電リサイクル" id="7dI-Pm-uh9"/>
+                    <tabBarItem key="tabBarItem" title="ごみと資源物の出し方（あ〜か）" id="7dI-Pm-uh9"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NSY-QD-pKU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1463" y="1904"/>
         </scene>
-        <!--大型ごみ-->
+        <!--ごみと資源物の出し方（と〜ふ）-->
         <scene sceneID="flJ-P5-sbw">
             <objects>
-                <viewController id="gtI-S5-aZJ" sceneMemberID="viewController">
+                <viewController title="ごみと資源物の出し方（と〜ふ）" id="gtI-S5-aZJ" userLabel="ごみと資源物の出し方（と〜ふ）" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cus-ir-OOF"/>
                         <viewControllerLayoutGuide type="bottom" id="yv5-N4-UQP"/>
@@ -1990,16 +1990,16 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                             <constraint firstItem="yv5-N4-UQP" firstAttribute="top" secondItem="EqH-1x-9ks" secondAttribute="bottom" id="t0G-gJ-h3I"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="大型ごみ" id="oTI-0i-fcd" userLabel="Tab Bar Item - 大型ごみ"/>
+                    <tabBarItem key="tabBarItem" title="ごみと資源物の出し方（と〜ふ）" id="oTI-0i-fcd" userLabel="ごみと資源物の出し方（と〜ふ）"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QJg-ga-4pm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="759" y="2562"/>
         </scene>
-        <!--剪定枝、小型家電リサイクル-->
+        <!--ごみと資源物の出し方（ほ〜も）-->
         <scene sceneID="29f-Nr-6T1">
             <objects>
-                <viewController id="kjS-Fi-bUc" sceneMemberID="viewController">
+                <viewController title="ごみと資源物の出し方（ほ〜も）" id="kjS-Fi-bUc" userLabel="ごみと資源物の出し方（ほ〜も）" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Q13-L5-0No"/>
                         <viewControllerLayoutGuide type="bottom" id="vid-46-SDW"/>
@@ -2020,16 +2020,16 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                             <constraint firstItem="vid-46-SDW" firstAttribute="top" secondItem="x1f-8g-HUy" secondAttribute="bottom" id="aGZ-nC-VLY"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="剪定枝、小型家電リサイクル" id="PER-J9-xll"/>
+                    <tabBarItem key="tabBarItem" title="ごみと資源物の出し方（ほ〜も）" id="PER-J9-xll" userLabel="ごみと資源物の出し方（ほ〜も）"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WfR-Xc-PBs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1456" y="2562"/>
         </scene>
-        <!--市で収集、処理できないもの2-->
+        <!--持ち込みについて-->
         <scene sceneID="eoc-dS-bOc">
             <objects>
-                <viewController id="pqa-Y0-8lX" sceneMemberID="viewController">
+                <viewController title="持ち込みについて" id="pqa-Y0-8lX" userLabel="持ち込みについて" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cik-Wm-gDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="6Fi-mv-ivk"/>
@@ -2050,16 +2050,16 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                             <constraint firstItem="ZMv-3v-KFy" firstAttribute="leading" secondItem="PpG-4s-vVH" secondAttribute="leading" id="aoq-kh-SHy"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="市で収集、処理できないもの2" id="yZs-8M-Pj3"/>
+                    <tabBarItem key="tabBarItem" title="持ち込みについて" id="yZs-8M-Pj3" userLabel="持ち込みについて"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D40-rG-MLV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="47" y="3198"/>
+            <point key="canvasLocation" x="50" y="3198"/>
         </scene>
-        <!--大型ごみ-->
+        <!--市で収集・処理できないもの１-->
         <scene sceneID="puH-Um-czb">
             <objects>
-                <viewController id="G1J-3y-Zm1" sceneMemberID="viewController">
+                <viewController title="市で収集・処理できないもの１" id="G1J-3y-Zm1" userLabel="市で収集・処理できないもの１" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="KZ4-OF-P7o"/>
                         <viewControllerLayoutGuide type="bottom" id="bDF-jq-jBP"/>
@@ -2080,16 +2080,16 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                             <constraint firstItem="iqC-oR-J51" firstAttribute="trailing" secondItem="fRL-3W-rhO" secondAttribute="trailing" id="zoH-mu-iNs"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="大型ごみ" id="JlA-c5-GI8" userLabel="Tab Bar Item - 大型ごみ"/>
+                    <tabBarItem key="tabBarItem" title="市で収集・処理できないもの１" id="JlA-c5-GI8" userLabel="市で収集・処理できないもの１"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hVp-iu-ZTu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="746" y="1904"/>
         </scene>
-        <!--市で収集、処理できないもの1-->
+        <!--ごみと資源物の出し方（か〜こ）-->
         <scene sceneID="756-Uw-jAn">
             <objects>
-                <viewController id="ysZ-CM-kHy" sceneMemberID="viewController">
+                <viewController title="ごみと資源物の出し方（か〜こ）" id="ysZ-CM-kHy" userLabel="ごみと資源物の出し方（か〜こ）" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9fQ-Fn-xgb"/>
                         <viewControllerLayoutGuide type="bottom" id="jjD-t0-Bab"/>
@@ -2110,16 +2110,16 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                             <constraint firstItem="kmL-at-zBz" firstAttribute="leading" secondItem="H6a-2w-9TB" secondAttribute="leading" id="ZuQ-Hn-AAy"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="市で収集、処理できないもの1" id="whR-rN-16s"/>
+                    <tabBarItem key="tabBarItem" title="ごみと資源物の出し方（か〜こ）" id="whR-rN-16s" userLabel="ごみと資源物の出し方（か〜こ）"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IPa-T6-JGx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-295" y="2552"/>
         </scene>
-        <!--ごみ関連施設のご案内-->
+        <!--ごみと資源物の出し方（せ〜と）-->
         <scene sceneID="Pgj-nR-4x3">
             <objects>
-                <viewController id="LaD-oY-rE8" sceneMemberID="viewController">
+                <viewController title="ごみと資源物の出し方（せ〜と）" id="LaD-oY-rE8" userLabel="ごみと資源物の出し方（せ〜と）" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="a51-xA-Nbz"/>
                         <viewControllerLayoutGuide type="bottom" id="wES-0L-vCP"/>
@@ -2140,16 +2140,16 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                             <constraint firstItem="wc3-9i-V0o" firstAttribute="trailing" secondItem="8bI-ct-2Qt" secondAttribute="trailing" id="tkZ-l1-1zF"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="ごみ関連施設のご案内" id="zy6-oh-frd"/>
+                    <tabBarItem key="tabBarItem" title="ごみと資源物の出し方（せ〜と）" id="zy6-oh-frd" userLabel="ごみと資源物の出し方（せ〜と）"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jbj-pQ-nAF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="392" y="2552"/>
         </scene>
-        <!--市で収集、処理できないもの2-->
+        <!--ごみと資源物の出し方（こ〜せ）-->
         <scene sceneID="she-qv-bMy">
             <objects>
-                <viewController id="QlK-Ow-cZp" sceneMemberID="viewController">
+                <viewController title="ごみと資源物の出し方（こ〜せ）" id="QlK-Ow-cZp" userLabel="ごみと資源物の出し方（こ〜せ）" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Dl8-AO-tT7"/>
                         <viewControllerLayoutGuide type="bottom" id="D0f-29-PPo"/>
@@ -2170,16 +2170,16 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                             <constraint firstItem="cYX-WY-Xsx" firstAttribute="leading" secondItem="foz-tt-tCT" secondAttribute="leading" id="vEs-Vd-8pe"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="市で収集、処理できないもの2" id="xF8-gx-S4h"/>
+                    <tabBarItem key="tabBarItem" title="ごみと資源物の出し方（こ〜せ）" id="xF8-gx-S4h" userLabel="ごみと資源物の出し方（こ〜せ）"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sew-8v-mgy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="50" y="2552"/>
         </scene>
-        <!--特別大型ごみ-->
+        <!--ごみと資源物の出し方（ひ〜ほ）-->
         <scene sceneID="Ga6-7f-3Ip">
             <objects>
-                <viewController id="iHW-HO-mkh" sceneMemberID="viewController">
+                <viewController title="ごみと資源物の出し方（ひ〜ほ）" id="iHW-HO-mkh" userLabel="ごみと資源物の出し方（ひ〜ほ）" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="S6t-ti-pgn"/>
                         <viewControllerLayoutGuide type="bottom" id="TEC-R0-5ss"/>
@@ -2200,16 +2200,16 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                             <constraint firstItem="lC2-LK-izo" firstAttribute="leading" secondItem="TUW-Ff-Be0" secondAttribute="leading" id="zoD-7n-kMd"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="特別大型ごみ" id="XXG-y4-hbP"/>
+                    <tabBarItem key="tabBarItem" title="ごみと資源物の出し方（ひ〜ほ）" id="XXG-y4-hbP" userLabel="ごみと資源物の出し方（ひ〜ほ）"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sqx-U1-NKJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1108" y="2562"/>
         </scene>
-        <!--市で収集、処理できないもの1-->
+        <!--ごみと資源物の出し方（も〜わ）-->
         <scene sceneID="H0U-Py-NJc">
             <objects>
-                <viewController id="2pV-RY-P4z" sceneMemberID="viewController">
+                <viewController title="ごみと資源物の出し方（も〜わ）" id="2pV-RY-P4z" userLabel="ごみと資源物の出し方（も〜わ）" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="g0R-hg-urI"/>
                         <viewControllerLayoutGuide type="bottom" id="Pjr-LL-GXA"/>
@@ -2230,16 +2230,16 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                             <constraint firstItem="Pjr-LL-GXA" firstAttribute="top" secondItem="mpi-O4-Ybf" secondAttribute="bottom" id="xUS-dT-REx"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="市で収集、処理できないもの1" id="lE8-1c-gAy"/>
+                    <tabBarItem key="tabBarItem" title="ごみと資源物の出し方（も〜わ）" id="lE8-1c-gAy" userLabel="ごみと資源物の出し方（も〜わ）"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gtm-jy-Bqn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-298" y="3198"/>
         </scene>
-        <!--ごみ関連施設のご案内-->
+        <!--安心まごころ収集事業について-->
         <scene sceneID="wYf-7H-iur">
             <objects>
-                <viewController id="BHf-2V-AMK" sceneMemberID="viewController">
+                <viewController title="安心まごころ収集事業について" id="BHf-2V-AMK" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ijh-VZ-7BR"/>
                         <viewControllerLayoutGuide type="bottom" id="MtV-kq-WE5"/>
@@ -2260,16 +2260,16 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                             <constraint firstItem="xL7-f7-E5J" firstAttribute="leading" secondItem="xlA-Jn-FFq" secondAttribute="leading" id="lQj-IW-6GD"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="ごみ関連施設のご案内" id="bYT-hf-hvd"/>
+                    <tabBarItem key="tabBarItem" title="安心まごころ収集事業について" id="bYT-hf-hvd" userLabel="安心まごころ収集事業について"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m2T-az-2ir" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1104" y="622"/>
         </scene>
-        <!--大型ごみ-->
+        <!--安心まごころ収集事業申請方法-->
         <scene sceneID="saT-HZ-cf4">
             <objects>
-                <viewController id="rV1-dG-OTE" sceneMemberID="viewController">
+                <viewController title="安心まごころ収集事業申請方法" id="rV1-dG-OTE" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DRZ-hz-fjc"/>
                         <viewControllerLayoutGuide type="bottom" id="mXQ-nH-Enc"/>
@@ -2290,16 +2290,16 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                             <constraint firstItem="Zih-Ub-8fv" firstAttribute="leading" secondItem="K00-4H-Rhg" secondAttribute="leading" id="wpL-5B-WnN"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="大型ごみ" id="Ds1-8M-P4h" userLabel="Tab Bar Item - 大型ごみ"/>
+                    <tabBarItem key="tabBarItem" title="安心まごころ収集事業申請方法" id="Ds1-8M-P4h" userLabel="安心まごころ収集事業申請方法"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qm9-2k-vo9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1450" y="622"/>
         </scene>
-        <!--剪定枝、小型家電リサイクル-->
+        <!--生ごみ処理容器 臭い/醗酵促進/堆肥の熟成-->
         <scene sceneID="q71-OI-7m8">
             <objects>
-                <viewController id="b3J-it-j3v" sceneMemberID="viewController">
+                <viewController title="生ごみ処理容器 臭い/醗酵促進/堆肥の熟成" id="b3J-it-j3v" userLabel="生ごみ処理容器 臭い/醗酵促進/堆肥の熟成" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7Ll-IV-aHL"/>
                         <viewControllerLayoutGuide type="bottom" id="J8u-96-eWZ"/>
@@ -2320,16 +2320,16 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                             <constraint firstItem="PqI-N8-WNV" firstAttribute="trailing" secondItem="Juf-HB-oWH" secondAttribute="trailing" id="kjE-41-zc0"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="剪定枝、小型家電リサイクル" id="0wm-cn-0iU"/>
+                    <tabBarItem key="tabBarItem" title="生ごみ処理容器 臭い/醗酵促進/堆肥の熟成" id="0wm-cn-0iU" userLabel="生ごみ処理容器 臭い/醗酵促進/堆肥の熟成"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aU4-K1-ZLn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="734" y="3198"/>
         </scene>
-        <!--特別大型ごみ-->
+        <!--生ごみ処理容器 上手な使い方/ポイント-->
         <scene sceneID="a9y-3o-Kmm">
             <objects>
-                <viewController id="sZg-jg-M7t" sceneMemberID="viewController">
+                <viewController title="生ごみ処理容器 上手な使い方/ポイント" id="sZg-jg-M7t" userLabel="生ごみ処理容器 上手な使い方/ポイント" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="sjJ-5D-OwV"/>
                         <viewControllerLayoutGuide type="bottom" id="y6S-g2-Ryw"/>
@@ -2350,16 +2350,16 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                             <constraint firstItem="y6S-g2-Ryw" firstAttribute="top" secondItem="en3-1R-nIr" secondAttribute="bottom" id="tkK-JY-eR4"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="特別大型ごみ" id="8ec-fx-VRD"/>
+                    <tabBarItem key="tabBarItem" title="生ごみ処理容器 上手な使い方/ポイント" id="8ec-fx-VRD" userLabel="生ごみ処理容器 上手な使い方/ポイント"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V5D-Hx-B1i" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="389" y="3198"/>
         </scene>
-        <!--市で収集、処理できないもの1-->
+        <!--寒川・茅ヶ崎リサイクル場所案内図-->
         <scene sceneID="SEf-xs-hxL">
             <objects>
-                <viewController id="bLP-wg-xhD" sceneMemberID="viewController">
+                <viewController title="寒川・茅ヶ崎リサイクル場所案内図" id="bLP-wg-xhD" userLabel="寒川・茅ヶ崎リサイクル場所案内図" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OSL-eH-Wvg"/>
                         <viewControllerLayoutGuide type="bottom" id="0Jp-py-Wor"/>
@@ -2380,7 +2380,7 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                             <constraint firstItem="0Jp-py-Wor" firstAttribute="top" secondItem="4Dt-XW-gcf" secondAttribute="bottom" id="gGN-Mw-EiR"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="市で収集、処理できないもの1" id="2GL-vY-bSV"/>
+                    <tabBarItem key="tabBarItem" title="寒川・茅ヶ崎リサイクル場所案内図" id="2GL-vY-bSV" userLabel="寒川・茅ヶ崎リサイクル場所案内図"/>
                     <navigationItem key="navigationItem" id="isT-jn-BzB"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VNF-6H-pkm" userLabel="First Responder" sceneMemberID="firstResponder"/>
