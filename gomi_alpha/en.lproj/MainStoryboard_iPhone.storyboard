@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="IUk-Ic-rlg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="IUk-Ic-rlg">
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -845,7 +844,7 @@
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
-                            <imageView tag="2" contentMode="scaleToFill" image="icon_bincanpet.png" translatesAutoresizingMaskIntoConstraints="NO" id="tYr-HQ-86B">
+                            <imageView tag="2" contentMode="scaleToFill" misplaced="YES" image="icon_bincanpet.png" translatesAutoresizingMaskIntoConstraints="NO" id="tYr-HQ-86B">
                                 <rect key="frame" x="16" y="138" width="142" height="79"/>
                             </imageView>
                             <imageView tag="3" contentMode="scaleToFill" image="icon_iruinuno.png" translatesAutoresizingMaskIntoConstraints="NO" id="WCe-ys-v6q">
@@ -863,7 +862,7 @@
                                 <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView tag="5" contentMode="scaleToFill" image="icon_koshi.png" translatesAutoresizingMaskIntoConstraints="NO" id="3DM-jt-r2p">
+                            <imageView tag="5" contentMode="scaleToFill" misplaced="YES" image="icon_koshi.png" translatesAutoresizingMaskIntoConstraints="NO" id="3DM-jt-r2p">
                                 <rect key="frame" x="163" y="138" width="141" height="79"/>
                             </imageView>
                             <imageView tag="4" contentMode="scaleToFill" image="icon_moyaseru.png" translatesAutoresizingMaskIntoConstraints="NO" id="Pbr-Wx-dVt">
@@ -909,13 +908,13 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="次の" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="kg2-RB-h4o">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" text="次の" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="kg2-RB-h4o">
                                 <rect key="frame" x="21" y="425" width="72" height="32"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="36"/>
                                 <color key="textColor" red="1" green="0.95936678450000001" blue="0.23297656459999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="word_icon_iruinuno.png" translatesAutoresizingMaskIntoConstraints="NO" id="g1D-Lh-qy6">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="word_icon_iruinuno.png" translatesAutoresizingMaskIntoConstraints="NO" id="g1D-Lh-qy6">
                                 <rect key="frame" x="98" y="425" width="201" height="36"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zby-2W-xRp">
@@ -932,7 +931,7 @@
                                     <segue destination="AHG-fq-hZq" kind="modal" id="OtL-xL-VyP"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" text="0466-23-5301" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="FYU-4B-h0d">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="0466-23-5301" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="FYU-4B-h0d">
                                 <rect key="frame" x="16" y="387" width="143" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="3JN-xc-x2Z"/>
@@ -941,7 +940,7 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GwU-mF-Afh">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GwU-mF-Afh">
                                 <rect key="frame" x="169" y="387" width="135" height="30"/>
                                 <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -1108,7 +1107,7 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ty-Dx-qsd">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ty-Dx-qsd">
                                 <rect key="frame" x="165" y="233" width="139" height="53"/>
                                 <color key="backgroundColor" red="0.93700396829999999" green="0.93700396829999999" blue="0.93700396829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="20"/>
@@ -1207,7 +1206,7 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                                     <action selector="btnBlk10:" destination="UFz-DU-91U" eventType="touchUpInside" id="TPn-EG-2HN"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ape-fN-ezQ">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ape-fN-ezQ">
                                 <rect key="frame" x="16" y="233" width="139" height="53"/>
                                 <color key="backgroundColor" red="0.93700396829999999" green="0.93700396829999999" blue="0.93700396829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="20"/>
@@ -1340,7 +1339,7 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="回収なし" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="frV-QW-HJA">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text="回収なし" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="frV-QW-HJA">
                                 <rect key="frame" x="16" y="159" width="288" height="170"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1373,7 +1372,7 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                                     <constraint firstAttribute="height" constant="90" id="VfL-vZ-hch"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="自宅前" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" minimumFontSize="10" preferredMaxLayoutWidth="300" translatesAutoresizingMaskIntoConstraints="NO" id="32H-Lf-LMP">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" text="自宅前" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" minimumFontSize="10" preferredMaxLayoutWidth="300" translatesAutoresizingMaskIntoConstraints="NO" id="32H-Lf-LMP">
                                 <rect key="frame" x="16" y="129" width="288" height="30"/>
                                 <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -1441,13 +1440,13 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="icon_koshi.png" translatesAutoresizingMaskIntoConstraints="NO" id="zkx-9V-hdd">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" image="icon_koshi.png" translatesAutoresizingMaskIntoConstraints="NO" id="zkx-9V-hdd">
                                 <rect key="frame" x="16" y="159" width="288" height="170"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="170" id="yHg-su-4JL"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="yse-Ad-ZgO">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="yse-Ad-ZgO">
                                 <rect key="frame" x="16" y="57" width="288" height="67"/>
                                 <string key="text" base64-UTF8="YES">
 5LuK5pel44GuCOOBlOOBvw
@@ -1799,7 +1798,7 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
         <image name="kanen-list.png" width="493" height="750"/>
         <image name="no-treat-list1.png" width="1080" height="1643"/>
         <image name="no-treat-list2.png" width="1074" height="1644"/>
-        <image name="oogata-list.png" width="493" height="750"/>
+        <image name="oogata-list.png" width="1249" height="1754"/>
         <image name="plastic-list.png" width="493" height="750"/>
         <image name="shigen-kobetsu-list.png" width="492" height="750"/>
         <image name="shigen-sonota-list.png" width="491" height="750"/>
@@ -1813,4 +1812,9 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
         <image name="tab_week.png" width="30" height="30"/>
         <image name="word_icon_iruinuno.png" width="400" height="66"/>
     </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
 </document>
