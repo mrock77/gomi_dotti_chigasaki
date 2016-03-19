@@ -442,7 +442,7 @@
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="32"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="回収なし" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T8I-cY-hLm">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text="回収なし" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T8I-cY-hLm">
                                 <rect key="frame" x="160" y="145" width="154" height="74"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="32"/>
@@ -454,7 +454,7 @@
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="32"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="回収なし" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bws-3O-sw4">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text="回収なし" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bws-3O-sw4">
                                 <rect key="frame" x="160" y="66" width="154" height="75"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="32"/>
@@ -463,13 +463,13 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" image="icon_moyaseru.png" translatesAutoresizingMaskIntoConstraints="NO" id="1Lo-aB-ldc" propertyAccessControl="none">
                                 <rect key="frame" x="160" y="302" width="154" height="74"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="回収なし" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rvE-jf-hQF">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text="回収なし" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rvE-jf-hQF">
                                 <rect key="frame" x="160" y="380" width="154" height="75"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="32"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="01/20(火)" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="A2D-Av-43M">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" text="01/20(火)" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="A2D-Av-43M">
                                 <rect key="frame" x="6" y="145" width="154" height="74"/>
                                 <color key="backgroundColor" red="1" green="0.79607843140000001" blue="0.79607843140000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="36"/>
@@ -481,7 +481,7 @@
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="36"/>
                                 <color key="highlightedColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="01/23(金)" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="uAm-dX-ukR">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" text="01/23(金)" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="uAm-dX-ukR">
                                 <rect key="frame" x="6" y="380" width="154" height="75"/>
                                 <color key="backgroundColor" red="1" green="0.79545454550000005" blue="0.79545454550000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="36"/>
@@ -493,7 +493,7 @@
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="32"/>
                                 <color key="highlightedColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="icon_iruinuno.png" translatesAutoresizingMaskIntoConstraints="NO" id="H1S-l8-OYI" propertyAccessControl="none">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" image="icon_iruinuno.png" translatesAutoresizingMaskIntoConstraints="NO" id="H1S-l8-OYI" propertyAccessControl="none">
                                 <rect key="frame" x="160" y="145" width="154" height="74"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="番地区" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bbf-62-d7L">
@@ -518,7 +518,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="icon_koshi.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZiQ-mr-hVP">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" image="icon_koshi.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZiQ-mr-hVP">
                                 <rect key="frame" x="160" y="66" width="154" height="75"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="icon_moyaseru.png" translatesAutoresizingMaskIntoConstraints="NO" id="WkS-0o-lCG" propertyAccessControl="none">
@@ -539,13 +539,13 @@
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="32"/>
                                 <color key="highlightedColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="01/19(月)" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="EXb-Rm-ZOX">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" text="01/19(月)" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="EXb-Rm-ZOX">
                                 <rect key="frame" x="6" y="66" width="154" height="75"/>
                                 <color key="backgroundColor" red="0.82261423919999999" green="0.80154262279999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="36"/>
                                 <color key="highlightedColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="icon_iruinuno.png" translatesAutoresizingMaskIntoConstraints="NO" id="MFt-WR-Q2P" propertyAccessControl="none">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" image="icon_iruinuno.png" translatesAutoresizingMaskIntoConstraints="NO" id="MFt-WR-Q2P" propertyAccessControl="none">
                                 <rect key="frame" x="160" y="380" width="154" height="75"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" text="01/22(木)" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="3Sh-XA-1Aq">
@@ -914,13 +914,13 @@
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
-                            <imageView tag="2" contentMode="scaleToFill" image="icon_haiyukinzoku.png" translatesAutoresizingMaskIntoConstraints="NO" id="tYr-HQ-86B">
+                            <imageView tag="2" contentMode="scaleToFill" misplaced="YES" image="icon_haiyukinzoku.png" translatesAutoresizingMaskIntoConstraints="NO" id="tYr-HQ-86B">
                                 <rect key="frame" x="6" y="152" width="152" height="82"/>
                             </imageView>
-                            <imageView tag="3" contentMode="scaleToFill" image="icon_bincanpet.png" translatesAutoresizingMaskIntoConstraints="NO" id="WCe-ys-v6q">
+                            <imageView tag="3" contentMode="scaleToFill" misplaced="YES" image="icon_bincanpet.png" translatesAutoresizingMaskIntoConstraints="NO" id="WCe-ys-v6q">
                                 <rect key="frame" x="6" y="238" width="152" height="83"/>
                             </imageView>
-                            <imageView tag="6" contentMode="scaleToFill" image="icon_iruinuno.png" translatesAutoresizingMaskIntoConstraints="NO" id="NIV-Yh-tzg">
+                            <imageView tag="6" contentMode="scaleToFill" misplaced="YES" image="icon_iruinuno.png" translatesAutoresizingMaskIntoConstraints="NO" id="NIV-Yh-tzg">
                                 <rect key="frame" x="163" y="195" width="152" height="61"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="XX/XX(X)" lineBreakMode="tailTruncation" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="LxF-Ic-JFO">
@@ -935,7 +935,7 @@
                             <imageView tag="5" contentMode="scaleToFill" image="icon_moyasenai.png" translatesAutoresizingMaskIntoConstraints="NO" id="3DM-jt-r2p">
                                 <rect key="frame" x="163" y="131" width="151" height="61"/>
                             </imageView>
-                            <imageView tag="4" contentMode="scaleToFill" image="icon_moyaseru.png" translatesAutoresizingMaskIntoConstraints="NO" id="Pbr-Wx-dVt">
+                            <imageView tag="4" contentMode="scaleToFill" misplaced="YES" image="icon_moyaseru.png" translatesAutoresizingMaskIntoConstraints="NO" id="Pbr-Wx-dVt">
                                 <rect key="frame" x="163" y="66" width="152" height="61"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="特定大型ごみ、特定粗大ごみの収集の申し込みは、予約専用ダイヤル" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="BPi-JD-SP8">
@@ -1010,10 +1010,10 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                                     <action selector="tapTEL" destination="SnU-nH-BS8" eventType="touchUpInside" id="aWd-EG-B7g"/>
                                 </connections>
                             </button>
-                            <imageView tag="1" contentMode="scaleToFill" image="icon_plastic.png" translatesAutoresizingMaskIntoConstraints="NO" id="aZU-Os-XNi">
+                            <imageView tag="1" contentMode="scaleToFill" misplaced="YES" image="icon_plastic.png" translatesAutoresizingMaskIntoConstraints="NO" id="aZU-Os-XNi">
                                 <rect key="frame" x="6" y="66" width="152" height="83"/>
                             </imageView>
-                            <imageView tag="7" contentMode="scaleToFill" image="icon_koshi.png" translatesAutoresizingMaskIntoConstraints="NO" id="86U-9f-rdy">
+                            <imageView tag="7" contentMode="scaleToFill" misplaced="YES" image="icon_koshi.png" translatesAutoresizingMaskIntoConstraints="NO" id="86U-9f-rdy">
                                 <rect key="frame" x="163" y="260" width="152" height="61"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="0467-57-1166" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="FYU-4B-h0d">
@@ -1206,7 +1206,7 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                                     <action selector="btnBlk7:" destination="UFz-DU-91U" eventType="touchUpInside" id="tAI-j0-QjZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dss-Yg-lF6">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dss-Yg-lF6">
                                 <rect key="frame" x="165" y="273" width="139" height="79"/>
                                 <color key="backgroundColor" red="0.93700396829999999" green="0.93700396829999999" blue="0.93700396829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="30"/>
@@ -1228,7 +1228,7 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                                     <action selector="btnBlk1:" destination="UFz-DU-91U" eventType="touchUpInside" id="zLc-ko-78R"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ql-XK-yNv">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ql-XK-yNv">
                                 <rect key="frame" x="16" y="273" width="139" height="79"/>
                                 <color key="backgroundColor" red="0.93700396829999999" green="0.93700396829999999" blue="0.93700396829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="30"/>
@@ -1250,7 +1250,7 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                                     <action selector="btnBlk3:" destination="UFz-DU-91U" eventType="touchUpInside" id="Wx3-a2-QR6"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="62S-5b-fwr">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="62S-5b-fwr">
                                 <rect key="frame" x="165" y="436" width="139" height="79"/>
                                 <color key="backgroundColor" red="0.93700396829999999" green="0.93700396829999999" blue="0.93700396829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="30"/>
@@ -1296,7 +1296,7 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mHK-Vb-xCY">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mHK-Vb-xCY">
                                 <rect key="frame" x="16" y="436" width="139" height="79"/>
                                 <color key="backgroundColor" red="0.93700396829999999" green="0.93700396829999999" blue="0.93700396829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="30"/>
