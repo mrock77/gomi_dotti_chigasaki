@@ -8,7 +8,7 @@
 
 #import "HandleDb.h"
 
-NSString *FILE_DB = @"db2015chigasaki.json";
+NSString *FILE_DB = @"db2016chigasaki.json";
 
 @interface HandleDb ()
 {

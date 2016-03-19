@@ -30,7 +30,6 @@
 		B0FC81881A38A11900382855 /* WebAddressSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FC81871A38A11900382855 /* WebAddressSearchViewController.m */; };
 		CA2FFC3F1BBD4CE500C146D4 /* date_icon_haiyukinzoku.png in Resources */ = {isa = PBXBuildFile; fileRef = CA2FFC3E1BBD4CE500C146D4 /* date_icon_haiyukinzoku.png */; };
 		CA30AFA41AF5DE0B009FE066 /* date_non.png in Resources */ = {isa = PBXBuildFile; fileRef = CA30AFA31AF5DE0B009FE066 /* date_non.png */; };
-		CA6A0C891AE2CBC600982CA4 /* db2015chigasaki.json in Resources */ = {isa = PBXBuildFile; fileRef = CA6A0C881AE2CBC600982CA4 /* db2015chigasaki.json */; };
 		CA6A0C911AE3FFC000982CA4 /* word_icon_bincanpet.png in Resources */ = {isa = PBXBuildFile; fileRef = CA6A0C8A1AE3FFC000982CA4 /* word_icon_bincanpet.png */; };
 		CA6A0C921AE3FFC000982CA4 /* word_icon_haiyukinzoku.png in Resources */ = {isa = PBXBuildFile; fileRef = CA6A0C8B1AE3FFC000982CA4 /* word_icon_haiyukinzoku.png */; };
 		CA6A0C931AE3FFC000982CA4 /* word_icon_iruinuno.png in Resources */ = {isa = PBXBuildFile; fileRef = CA6A0C8C1AE3FFC000982CA4 /* word_icon_iruinuno.png */; };
@@ -193,7 +192,6 @@
 		CAED55D31B9AA4DB008C3A80 /* 7blk-2016-03.png in Resources */ = {isa = PBXBuildFile; fileRef = CAED55CD1B9AA4DB008C3A80 /* 7blk-2016-03.png */; };
 		CAED55DF1B9AA4E7008C3A80 /* 8blk-2016-03.png in Resources */ = {isa = PBXBuildFile; fileRef = CAED55D91B9AA4E7008C3A80 /* 8blk-2016-03.png */; };
 		CAED55F41B9AB0F3008C3A80 /* PdfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAED55F31B9AB0F3008C3A80 /* PdfViewController.m */; };
-		CAED55F71B9AB26F008C3A80 /* H27wakedashi.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CAED55F61B9AB26F008C3A80 /* H27wakedashi.pdf */; };
 		CAFAD0331BB1040C00CB53F1 /* back2today.png in Resources */ = {isa = PBXBuildFile; fileRef = CAFAD0321BB1040C00CB53F1 /* back2today.png */; };
 		CAFAD0351BB1075600CB53F1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFAD0341BB1075600CB53F1 /* QuartzCore.framework */; };
 		CAFCA89C1ADD6E6100FDE34F /* date_icon_bincanpet.png in Resources */ = {isa = PBXBuildFile; fileRef = CAFCA8951ADD6E6100FDE34F /* date_icon_bincanpet.png */; };
@@ -245,7 +243,6 @@
 		B0FC81871A38A11900382855 /* WebAddressSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebAddressSearchViewController.m; sourceTree = "<group>"; };
 		CA2FFC3E1BBD4CE500C146D4 /* date_icon_haiyukinzoku.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = date_icon_haiyukinzoku.png; sourceTree = "<group>"; };
 		CA30AFA31AF5DE0B009FE066 /* date_non.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = date_non.png; sourceTree = "<group>"; };
-		CA6A0C881AE2CBC600982CA4 /* db2015chigasaki.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = db2015chigasaki.json; sourceTree = "<group>"; };
 		CA6A0C8A1AE3FFC000982CA4 /* word_icon_bincanpet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = word_icon_bincanpet.png; sourceTree = "<group>"; };
 		CA6A0C8B1AE3FFC000982CA4 /* word_icon_haiyukinzoku.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = word_icon_haiyukinzoku.png; sourceTree = "<group>"; };
 		CA6A0C8C1AE3FFC000982CA4 /* word_icon_iruinuno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = word_icon_iruinuno.png; sourceTree = "<group>"; };
@@ -419,7 +416,6 @@
 		CAED55D91B9AA4E7008C3A80 /* 8blk-2016-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "8blk-2016-03.png"; sourceTree = "<group>"; };
 		CAED55F21B9AB0C9008C3A80 /* PdfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PdfViewController.h; sourceTree = "<group>"; };
 		CAED55F31B9AB0F3008C3A80 /* PdfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PdfViewController.m; sourceTree = "<group>"; };
-		CAED55F61B9AB26F008C3A80 /* H27wakedashi.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = H27wakedashi.pdf; path = pdf/H27wakedashi.pdf; sourceTree = "<group>"; };
 		CAFAD0321BB1040C00CB53F1 /* back2today.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back2today.png; sourceTree = "<group>"; };
 		CAFAD0341BB1075600CB53F1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CAFCA8951ADD6E6100FDE34F /* date_icon_bincanpet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = date_icon_bincanpet.png; sourceTree = "<group>"; };
@@ -452,7 +448,6 @@
 		B0A2699B1A348BA200589AD9 /* db_calendar */ = {
 			isa = PBXGroup;
 			children = (
-				CA6A0C881AE2CBC600982CA4 /* db2015chigasaki.json */,
 				CABAA5601C9C6E3B004D04AF /* db2016chigasaki.json */,
 			);
 			path = db_calendar;
@@ -530,7 +525,6 @@
 		CA794F4319FB44EE00C96F85 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CAED55F51B9AB1F8008C3A80 /* pdf */,
 				B0A2699B1A348BA200589AD9 /* db_calendar */,
 				CA794F6219FB4C6900C96F85 /* image4app */,
 				CA794F4419FB44EE00C96F85 /* ChigasakiGomi-Info.plist */,
@@ -726,14 +720,6 @@
 			path = image4app;
 			sourceTree = "<group>";
 		};
-		CAED55F51B9AB1F8008C3A80 /* pdf */ = {
-			isa = PBXGroup;
-			children = (
-				CAED55F61B9AB26F008C3A80 /* H27wakedashi.pdf */,
-			);
-			name = pdf;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -862,7 +848,6 @@
 				CA6A0C9F1AE4033E00982CA4 /* icon_haiyukinzoku.png in Resources */,
 				CABAA5ED1C9C6F1F004D04AF /* 6blk-2016-11.png in Resources */,
 				CABAA5A01C9C6EEE004D04AF /* 3blk-2016-06.png in Resources */,
-				CA6A0C891AE2CBC600982CA4 /* db2015chigasaki.json in Resources */,
 				CABAA6191C9C6F39004D04AF /* 8blk-2016-07.png in Resources */,
 				CABAA6031C9C6F2F004D04AF /* 7blk-2016-09.png in Resources */,
 				CACCEDF31BBEACCF00F89E5E /* H27wakedashi_P12.png in Resources */,
@@ -904,7 +889,6 @@
 				CAED55BB1B9AA4C2008C3A80 /* 5blk-2016-03.png in Resources */,
 				CABAA5C11C9C6F01004D04AF /* 4blk-2017-03.png in Resources */,
 				CACCEDED1BBEACCF00F89E5E /* H27wakedashi_P06.png in Resources */,
-				CAED55F71B9AB26F008C3A80 /* H27wakedashi.pdf in Resources */,
 				CACCEDF81BBEACCF00F89E5E /* H27wakedashi_P17.png in Resources */,
 				CA794F4719FB44EE00C96F85 /* InfoPlist.strings in Resources */,
 				CABAA5E91C9C6F1F004D04AF /* 6blk-2016-07.png in Resources */,
