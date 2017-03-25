@@ -8,7 +8,7 @@
 
 #import "HandleDb.h"
 
-NSString *FILE_DB = @"db2016chigasaki.json";
+NSString *FILE_DB = @"db2017chigasaki.json";
 
 @interface HandleDb ()
 {
@@ -60,13 +60,13 @@ NSString *FILE_DB = @"db2016chigasaki.json";
 - (void)initDbPit {
     _dbPit = [NSDictionary dictionaryWithObjectsAndKeys:
               // Pit, keyStr
-              @"集積所" ,@"燃やせるごみ",
-              @"集積所" ,@"燃やせないごみ",
-              @"集積所" ,@"プラスチック製容器包装類",
-              @"集積所" ,@"びん・かん・ペットボトル",
-              @"集積所" ,@"衣類・布類",
-              @"集積所" ,@"古紙類",
-              @"集積所" ,@"廃食用油・金属類",
+              @"ごみ・資源物集積所" ,@"燃やせるごみ",
+              @"ごみ・資源物集積所" ,@"燃やせないごみ",
+              @"ごみ・資源物集積所" ,@"プラスチック製容器包装類",
+              @"ごみ・資源物集積所" ,@"びん・かん・ペットボトル",
+              @"ごみ・資源物集積所" ,@"衣類・布類",
+              @"ごみ・資源物集積所" ,@"古紙類",
+              @"ごみ・資源物集積所" ,@"廃食用油・金属類",
               nil];
 }
 
